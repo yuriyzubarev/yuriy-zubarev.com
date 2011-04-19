@@ -1,0 +1,2 @@
+scp -r _site/* solutionrealm_yuriy-zubarev@ssh.phx.nearlyfreespeech.net:/home/public
+

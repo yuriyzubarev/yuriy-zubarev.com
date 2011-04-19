@@ -1,0 +1,12 @@
+---
+layout: post
+title: Frantic pace of technology
+---
+The latest issue of "Computer" has an informative article "Simplicity as a Driver for Agile Innovation" with the following gem:
+
+<blockquote>... The frantic pace of technology provides its own chaos: before a certain technology reaches maturity and can repay the enormous investments for its development and production, a newer option attracts attention with novelty and fresh promises.</blockquote>
+
+This quote succinctly describes the environment of IT and underlines my own 10+ years of experience. At every point and with almost every decision we have to balance out maturity of incumbent products and promises of new ones.
+
+ 
+

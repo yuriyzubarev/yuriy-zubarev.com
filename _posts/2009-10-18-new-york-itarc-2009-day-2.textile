@@ -1,0 +1,81 @@
+---
+layout: post
+title: New York ITARC 2009, Day 2
+---
+Today I had a notepad with me, so be ready for a long read. Additional observations about New York: mountains of garbage bags are along sides of streets ready for collections. I think it's because there are no back alleys in Manhattan. So much different from Vancouver. I also tried and beat couple of cars by crossing on the red line. I got couple of honor honks. I felt completely assimilated.
+
+The day was opened by <strong>Paul Preiss</strong> who talked about <strong>"Next Generation Activities"</strong>. After having gone to Architect Boot-camp, most of Paul's talk sounded already familiar but there was new information as well. Paul said that he started in the industry as a programmer but he didn't feel completely at home doing that. He noted that it wasn't like he didn't like programming, it just didn't make sense for him. He didn't like writing code for the sake of writing code. This sounded familiar to me. Sometimes I felt a void inside me, some dissatisfaction about my role and my contributions. I went on crazy programming spikes, creating solid and sometimes elegant code, and wholeheartedly enjoying the process of discovery and creation. I finished those spikes only to discover the void inside me grew even bigger. The code did solve some problem, but the amount of effort and sophistication was disproportionally big compared to the actual problem being solved. In many cases I was writing code and refactoring it only for the sake of writing code and refactoring.
+
+Paul then went on to deliver one of his, in my opinion, main statements. He argued that we're the only group that separates us from the rest of the company - "the business". We're just IT and we're here to server "the business". Finance doesn't "serve the business". They do what they are good at and they are part of the business. This caught me by surprise. I was completely content with being a second class citizen to "the business". That is what was engraved in my head. Well, it's a good practice to question everything and this was an excellent example.
+
+<img class="alignright size-full wp-image-77" title="Paul" src="http://midnightit.files.wordpress.com/2009/10/paul.png" alt="Paul" width="450" height="338" />
+
+This central thought led him to suggest that IASA was to make architecture actionable. He was surprised that there were no solid requirements for entry for profession that impacts so many people and influences budget of billions dollars. He joked that his hair-dresser had to meet more state requirements before they can practice their trade than an IT Architects had. Comparisons with professions in medicine was even more grimmer.
+
+Paul continued and underlined that IASA chapter was not meant to be a user group. The chapter is there to support us and our career growth, give us jobs and make sure they're paid well. I see where Paul is going and what he want IASA to become. What's different about IASA that it's not run by geeks. Paul is a business savvy and a shrew person and he wants to carve out a bigger piece of the corporate pie for IT Architects. He will have lots of challenges and resistance from other groups along the way. But this is where we, as members, here to support and help. He emphasized that he's practicing architecture only 20% of his time and he's selling it 80% of his time. This is what chapter leadership also has to expect.
+
+He then shared some numbers, problems and priorities for IASA. The association has more than 8000 members. He acknowledged the IASA web site sucked, they knew about it and kept working. That's nice to know. About 6 months ago I sent email to Paul to confirm IASA is still alive since the web site didn't give me any signal of pulse at that time. IASA problems included being to big, underfunded and unfocused. The problem of size would be solved by giving local regions more responsibilities. Focus for the next year was to create filters for bad architects and recognize good ones through education, certification and accreditation.
+
+Paul then introduced various aspects of body of knowledge for architects. He mentioned, among other things, rigorous taxonomy of skills and that the foundational skills for architects was Business Technology Strategy. He cut to the chase by stating that developers were there to write code and architect to get rid of code. Code has to make money. Architects should concentrate on delivering the most value for the least number of lines written. I tend to agree. This could be also a reason why some good coders fail to become good architects. They always stay coders in their hearts and cannot have no code written either by themselves or developers in their companies.
+
+Paul also clarified IASA position that Enterprise Architect is not a specialization but a role. The comparison was with a chief of surgery in hospitals. I had a benefit of learning this statement from Max Poliashenko, digesting it and having agreed with it, but I wonder what Rogers Sessions would say. Paul then outlined four levels of Architect certification. This is the quick summary:
+
+<ol>
+<li>Aspiring architect - knowledge test</li>
+<li>Associate architect - experience + knowledge test</li>
+<li>Professional architect - experience + board exam</li>
+<li>Master architect - thought leaders, speakers, writers and notable contributors</li>
+</ol>
+
+Local chapters would run certification board as local values matter for every profession.
+
+Paul concluded that IASA's mission statement is to empower the profession and, as an example, added that cloud wasn't future. Cloud is just another tool. Future are people standing up and speaking for themselves and IASA is there help and facilitate.
+
+I liked Paul's speech (I can give Toastmaster evaluation as usual, if he interested). I think IASA has a good leadership. Paul possesses the right amount of technical and business knowledge, energy and charisma.
+
+The next key note <strong>"Principles of Software Architecture Design"</strong> was delivered by <strong>Len Bass</strong>. Lean is a legend and I personally read couple of books he co-authored. Seeing him and listening him was a great opportunity. He started with outlining types of requirements and noting that requirements are good things. Requirements are constraints and the more we have the less decisions we have to make.
+
+Len then delved into non-functional requirements and ways of their elicitation. He explained differences between categories and taxonomies and suggested to stick with categories. The essence is that in taxonomies, a thing can only fall under one taxonomy element. His example with "denial of service" proved to be a challenge for taxonomies. During denial of service, many non-functional requirements are impacted: availability, performance, security, usability. He offered then a common for for quality attributes:
+
+<img src="http://midnightit.files.wordpress.com/2009/10/len-availability-table.png" alt="" width="450" height="338" />
+
+Len followed with a really deep dive into concepts of ASP - Architecturally Significant Requirements. He started describing ATAH - Architecture Trade-off Analysis Method, utility trees and designing paths. One interesting thought he offered was that in many cases architecture and design testing are thought experiments. So much for xUnit frameworks. At some point I caught myself losing my attention. What was supposed to be a keynote speech turned into highly technical lecture by a university professor. His topic was much better suited for one of the tracks rather than a keynote address.
+
+<img src="http://midnightit.files.wordpress.com/2009/10/len-summary.png" alt="" width="450" height="338" />
+
+The day was coming to the end closing keynote speech was presented by <strong>Angela Yochem</strong>. It was titled <strong>"Architecture *is* the business"</strong>. This was a logical continuation of Pauls's message and I liked this connection through a common theme. Paul introduced Angela with humor: "Somebody told me that enterprise architects are like unicorns. Yes, they would be pretty if they existed. But they do exists!", and he gave her a stage.
+
+Angela started with a message that already had a chance to be absorbed by the audience: we're just as business as finance, HR, purchasing, legal, etc. We're all partners. She then compared architects to a really bad salesmen: they annoy people by asking them for couple of hours of undivided attention so that they could learn about our problems and then offer us products and services to solve them. I recognized here myself on a couple of occasions...
+
+<img src="http://midnightit.files.wordpress.com/2009/10/angela-architecture-obligations.png" alt="" width="450" height="338" />
+
+Angela threw another observation that caught me by surprise: there was no reasons architects couldn't apply for funding for some future benefits. She saw it done successfully. Hm... Here is a thought. Now I just have to come up with a value proposition.
+
+For all us, wondering where to start, she suggested creating a functional view of our business or a segment to gain a perspective and to spot inefficiencies.
+
+Angela concluded with a bitter pill. She paraphrased John Zachman: if you cannot describe your value to your company then may be you're not bringing that much value. I'm definitely bringing value as a developer, designer and occasional operational support but hardly any value as an architect. Well, I honestly have to thank Angela for this perspective.
+
+Brief Q&A session then followed:
+
+Q: what organizational metrics could be used in architecture?
+A: develop architecture scorecards. Track delivery of components and enablers by all company units that contribute to enterprise architecture.
+
+Q: how to sell architecture initiatives?
+A: Understand the value you deliver. Formulate the value as clear as possible.
+
+Q: One thing you wish you knew looking back (asked by Grady Booch)
+A: Waited many years to be noticed as a decision maker. The reason was not taking ownership of problems.
+
+The day ended with a productive <strong>Open Space</strong> session. I heard about this concept from <a href="http://www.javaposse.com/">Java Posse</a> but never participated before. I threw 3 topics in the mix:
+
+1) Documenting software architecture
+2) CTO vs. Architect role (since architects own IT strategy)
+3) Company's revenue level to afford dedicated architects
+
+The first topic received a critical mass of votes and was included in the main session. Hedging the bets paid off. When the discussion started, my corner got fewer people than votes - it's hard to compete with Grady Booch's topic.
+
+<img src="http://midnightit.files.wordpress.com/2009/10/open-session-topics.png" alt="" width="450" height="338" />
+
+My discussion was interesting but not in the best way - everybody had questions but hardly anyone could offer answers. The group ended up sharing what worked for them and what didn't - that the main point of Open Space. One person recommended <a href="http://www.amazon.com/gp/product/0321112296?ie=UTF8&tag=fibonaccisolu-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321112296">Software Systems Architecture: Working With Stakeholders Using Viewpoints and Perspectives</a> which I should definitely investigate. There was a consultant from Sparx System among us who advocated Enterprise Architect and a certain framework he developed. I also own a copy of this package. Almost everything he was suggesting wasn't applicable to small and medium companies unfortunately.
+
+For the second round of discussions I joined "Web Frameworks Components" discussions. I pitched in by describing our experience with Open Social API and Shindig in particular and contrasted it with Java Portlet API. Other people described their experiences with Flex, Google Gears, etc. After the session, one gentleman approached me with some questions about Shindig. We had a good conversation and found that we have similar set-ups in our companies. The last discussion I jumped to was revolving around a question of a single IT architect in a company. This situation was common among attendees. It looked like if a company had only one IT Architect, then what they really had was a senior developer and a team lead who happened to be called an architect for whatever reason. Oh, that sounds very familiar. Some people were seriously upset by not being able to escape from the chains of development, testing, deployment, etc. I offered a thought that "pure" IT architects are not needed for all companies. Not all companies have a dedicated lawyer. This is actually why we need a profession and this is why I wanted to discuss "Company's revenue level to afford dedicated architects" topic. We also agreed that everybody in this position should do what Angela prescribed - articulate our value proposition as architects, and if we cannot - well, keep writing more code pal.

@@ -1,0 +1,113 @@
+---
+layout: post
+title: IEEE Computer January 2009
+---
+<h2>Is Cloud Computing Really Ready for Prime Time?</h2>
+
+<blockquote>Proponents tout the technology's advantages, including cost savings, high availability, and easy scalability.</blockquote>
+
+<blockquote>... IT departments are still wary of it because they don't control the cloud-computing platform.</blockquote>
+
+<blockquote>... So far, venture capitalists have not invested a lot of money in cloud-computing providers.</blockquote>
+
+<blockquote>... key risks include reliability, security, the additional cost of the necessary network bandwidth, and getting locked into specific cloud-computing vendor.</blockquote>
+
+<blockquote><strong>Types of cloud services</strong>
+<strong>Services.</strong> Some products offer internet-based services - such as storage, middleware, collaboration, and database capabilities - directly to users.
+<strong>IaaS</strong>. Infrastructure-as-a-service products deliver a full computer infrastructure via the Internet.
+<strong>PaaS</strong>. Platform-as-a-service products offer a full a partial application development envirnment that users can access and utilize online, even in collaboration with others.
+<strong>SaaS.</strong> Software-as-a-service products provide a complete, turnkey applications - including complex programs such as those for CRM or enterprise-resource management via the Internet.
+</blockquote>
+
+<blockquote>A recent survey of CIOs and IT executives by IDC rated security as their main cloud-computing concern. Almost 75 percent of respondents said they were worried about security.</blockquote>
+
+<blockquote>... data stored in the cloud night be used anywhere in the world and thus might be subject to state or national data-storage laws related to privacy or record keeping.</blockquote>
+
+<blockquote>"This has caused Amazon and other companies to develop offerings using storage facilities located in the EU.""</blockquote>
+
+<blockquote>Companies cannot pass audits of their capabilities by prospective clients if they can't demonstrate who has access to their data and how they keep unauthorized personnel from retrieving information.
+
+Cloud-computing vendors are addressing this concern by having third parties audit their systems in advance and by documenting procedures designed to address customers' data-security needs.</blockquote>
+
+<blockquote>Cloud computing hasn't always provided round-the-clock reliability.
+
+For example, Salesforce.com left customers without service for six hours on 12 February 2008.
+
+And Amazon's S3 and EC2 services suffered a three-hour outage three days later.</blockquote>
+
+<h2>The changing paradigm of data-intensive computing</h2>
+
+I get easily mesmerized by big scales, and the cover feature of the issue delivered on this premise. Words like Tbyte, Pbyte and "1000-fold increase" are common occurrences throughout this issue and this article in particular.
+
+I'm also fortunate to work at <a href="http://www.yachtworld.com">YachtWorld.com</a>. This is not the first time when the main theme of the current issue of a magazine strikes an accord with the progress and challenges we experience at YachtWorld. No, we don't process Pbytes of raw data (yet) but we recently hit a bar with Tbyte of raw data to be crunched and data-intensive computing is now a part of our world as well.
+
+How can a mid-size company can be constantly on the cutting edge of so many facets of IT? I think it's because we're a niche company. Our niche is a marine industry and we develop and support software solutions for nearly all facets of that industry: portals, SEO, web services, CMS, data warehousing, data exchange, inventory managements, ad management, e-commerce, etc.
+
+<blockquote>The continued exponential growth of computational power, data-generation sources, and communication technologies is giving rise to a new era in information processing: data-intensive computing.
+
+... Ability to tame a tidal wave of information will distinguish the most successful scientific, commercial, and national-security endeavors.</blockquote>
+
+<blockquote>... found that "datasets being produced by experiments and simulations are rapidly outstripping our ability to explore and understand them...</blockquote>
+
+<blockquote>The North American electric power grid operations generate 15 terabytes of raw data per year, and estimates for analytic results from control, market, maintenance, and business operations exceed 45 Tbytes/day. As developers add new high-resolution sensors to the grid, <strong>this data volume is increasing rapidly while the time available to make control decision remains constant</strong>.</blockquote>
+
+I think the highlighted portion of the quote above is the universal challenge for all data-intensive computing.
+
+<blockquote>High-energy physics remains a leading generator of raw data. For example, the Atlas experiment for the Large Hadron Collider ... will generate raw data at a rate of 2 Pbytes per second beginning in 2008 and store about 10 Pbytes per year of processed data.</blockquote>
+
+This is simply unbelievable! I fish these guys did a presentation on how they handle data processing at such an enormous rate.
+
+<blockquote>In contrast to compute-intensive tasks where available processing power is the rate-limiting factor, data-intensive computing could be qualitatively defined as "any computational task where data availability is the rate-limiting factor to producing time-critical solutions."</blockquote>
+
+<blockquote><strong>Data-intensive computing styles</strong>
+
+<strong>Data-processing pipelines</strong>
+
+<strong>Data warehouses.</strong> ... Wal-Mart's, has grown over a decade to store more than a petabyte, fueled by daily data from 800 million transactions generated by its 30 million customers.
+
+<strong>Data centers</strong></blockquote>
+
+<blockquote>Underlying the MapReduce programming model is the Google File System, along with its open source counterpart, the Hadoop Distributed File System. While these systems have much in common with traditional distributed file systems, they differ in that they are built based on the assumption that terabyte datasets will be distributed across thousands of disks attached to commodity compute nodes. In such environments, hardware failure occurs regularly. Hence, data redundancy, fault detection, and computation recovery are core facilities that the file system provides transparently to applications.</blockquote>
+
+<blockquote>The speed of light ultimately limits latency; this problem is at the heart of many data-intensive analyses.</blockquote>
+
+<h2>The 24-hour knowledge factory: can it replace the graveyard shift?</h2>
+
+Discovery of the issue! I'm already planning to talk to my boss about feasibility of this approach.
+
+<blockquote>Collaborating centers in time zones six to eight hours apart can transfer work so that every center is working during the daytime. Although this concept avoids the hazards of night work, it requires careful planning and a way to automatically capture evolving knowledge.</blockquote>
+
+<blockquote>The key issues are how to hand over work in progress, decompose tasks into relatively autonomous units, and manage operations effectively in such a decentralized environments.</blockquote>
+
+<blockquote>... Work transfer is really like work transformation, since each worker adds and reshapes knowledge before passing it on. Transformed tasks, in turn, lead to redefined job descriptions, which require expertise to break down and define.</blockquote>
+
+<blockquote>One obvious advantage was less time for tasks resolution. The gradual one-to-one pairing between onshore and offshore members made is easier to transfer tasks and knowledge. In one case, the US and Indian developers working in an interlaced mode (US sending the code for testing in the evening and getting programmer feedback from India in the morning) resolved a bug in half the time they would have taken in a conventional structure.</blockquote>
+
+<blockquote>A by-product of constant communication is superior documentation and knowledge dissemination.</blockquote>
+
+<blockquote>Geographic distance also means considerable handoff overhead. Work is transitioned every eight hours, and time and effort are involved in each handoff activity. The factory paradigm also involves considerable upfront effort in task decomposition. Someone must decide how to break down tasks in the various disciplines.
+
+Management and quality control become more burdensome.</blockquote>
+
+<h2>Professional and ethical dilemmas in software engineering</h2>
+
+<blockquote>The authors identify, categorize, and name nine specific ethical and professional dilemmas in software engineering, placing them in the context of the IEEE code of conduct...</blockquote>
+
+<ol>	
+<li>Mission imposible</li>
+<li>Mea culpa</li>
+<li>Rush job</li>
+<li>Not my problem</li>
+<li>Red lies</li>
+<li>Fictionware versus vaporware</li>
+<li>Nondiligence</li>
+<li>Canceled vacation</li>
+<li>Sweep it under the rug</li>
+</ol>
+
+<h2>Web 3.0 emerging</h2>
+
+<blockquote>With Web 3.0, on the other hand, the explosion of data on the Web has emerged as a new problem space, and the new game-changing applications of this next generation of technology have yet to be developed.</blockquote>
+
+In one article I read about an year ago, it was suggested that Web 3.0 is going to be a contest between 3 enablers: semantic web, rich multimedia and personalization/suggestion technologies. Please don't quote me on this but that's what I remember. This article declares a winner and it's Semantic Web (RDFS, OWL) and Linked Data (RDF, SPARQL). The previous article also outlined a challenge for semantic web adoption which was an unclear business model for profitability. I have to agree here. Let's take YachtWorld.com where we could expose boat information in a more semantic way. The first thing this would enable is for our competitors to scrape our data more easily than ever and present this data as their own. The current article is rather silent about this point but provides lots of success stories for non-commercial application of the technology. I'm still very interested about a potential business model for semantic web applications but so far I failed to see it.
+

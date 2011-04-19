@@ -1,0 +1,27 @@
+---
+layout: post
+title: Conway's Game of Office Life
+---
+After running "Life Game" app on my iPhone on the weekend I started to see patterns that reminded my an office life. I guess I have to start thinking about the next vacation already.
+
+Still lives
+
+Ah, what a lively name! In the classical interpretation, these stationary patterns represent static formations. At the first sight they give you a sense of stability and order in a wild picture of chaos. When I try to translate these patterns to the office life, I find it quite hard to find flattering examples. Static, stationary and stability - these three don't go together nowadays. If you feel yourself or being perceived static, stability is the last thing that comes to mind. You might want to look around and see if there is a big boot coming towards you to send you packing. In the game of Office Life, this pattern should be called <strong>Dead Weight</strong>. These people take up space, make your company look big and legitimate and make you feel important and powerful if you're in charge of these people. But at the end of the day they are indifferent rusty anchors who demoralize everybody else around them and limit other people potentials and a potential of the whole company.
+
+Oscillators
+
+Sounds like we have some movement here! Before constant flickering of these patterns start to strain your eyes, they appear exciting and beautiful. They feel almost like an antidote to Dead Weight - vibrant and always busy. Strange thing happens when you observe these patterns in the office life for extended period of time. Underneath a cover of never ending activity you can actually smell a Dead Weight. This is the most dangerous pattern of Office Life. Meet <strong>Busy Doing Nothing</strong>. These people mesmerize you at first. They run engaging meetings, write lots of program code, reorganize company structure in ever so clever ways and patronize you with empty promises of well rehearsed speeches. When all is said and done, you still stare at the same broken house but now painted in blue instead of green. It is surrounded by a fence built from materials straight from NASA research laboratories and costing more than the house itself. You also notice seven chimneys on the roof but you're puzzled to understand why. Busy Doing Nothing pattern runs through all rung of the company. Meetings spawn special follow-up meetings. More code needs to be written to support and monitor a newly written custom content management system. Restructured company looks painfully familiar, only you report to a director of usability now instead of a director of documentation.
+
+Spaceships
+
+Now we get to the good part. I mean it. These patterns are truly remarkable. You see the motion and you get tricked into thinking that a perpetual motion machine really exists: the motions support themselves. In the office parlance I would call this pattern <strong>Keepers</strong>. Keepers differentiate themselves from Dead Weight by delivering, from Busy Doing Nothing - by delivering real value. They get from point A to point B and from there to point C. Their work speaks quality so A-B-C path doesn't have to be walked again. They get closure on tasks and deliverables and move on. Keepers are building blocks of a healthy office and a healthy company.
+
+Guns and Rakes
+
+John Horton Conway had to shell out 50$ and challenged people to find a pattern that can grow indefinitely. It wasn't easy to find these patterns in mathematics and it's equally difficult to find them in the office life. In our office-speak, I will call these patterns <strong>Builders</strong>. Builders are back-bones of teams, departments and companies. If a Builder works in a creative area, their work inspires and creates devotion and following. Builders who work in production areas set new standards for productivity and quality and leave behind best practices. Builders in managerial areas cultivate talented individuals and productive teams.
+
+Breeder
+
+
+ 
+

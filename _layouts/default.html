@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+     <title>
+       {% if page.title %}
+         {{ page.title }} //
+       {% endif %}
+       Yuriy Zubarev
+     </title>
+     <meta name="author" content="Yuriy Zubarev" />
+     {% if page.summary %}
+       <meta namne="description" content="{{ page.summary }}" />
+     {% endif %}
+
+     <link rel="stylesheet" href="/stylesheets/syntax.css" type="text/css" />
+     <link rel="stylesheet" href="/stylesheets/default.css" type="text/css" />
+
+     {% for css in page.css %}
+       <link rel="stylesheet" href="{{ css }}" type="text/css" />
+     {% endfor %}
+  </head>
+  <body>
+
+    <div id="site">
+
+      <h1><a href="/">Yuriy Zubarev</a></h1>
+      
+      <div class="clear"></div>
+      
+      <div id="sidebar" class="vcard">
+        <h3>Me</h3>
+        <dl id="contact">
+          <dt>Name</dt>
+          <dd><a class="fn url" href="/">Yuriy Zubarev</a></dd>
+        </dl>
+      </div>
+      
+      <div id="content">
+        {{ content }}
+      </div>
+      
+      <div class="clear"></div>
+      
+    </div>
+
+    {% for js in page.javascript %}
+      <script type="text/javascript" src="{{ js }}"></script>
+    {% endfor %}
+
+  </body>
+</html>

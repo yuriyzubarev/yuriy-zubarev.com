@@ -1,0 +1,113 @@
+---
+layout: post
+title: Communications of the ACM 01/09 vol. 52 no. 01
+---
+<h2>Students flock to game design</h2>
+
+<blockquote>As governments and universities worldwide develop strategies to reverse a dizzying downturn in computer science students, a hot field of study is getting even hotter and helping to rekindle interest in computer science. Game design has become a popular new major at more than 200 schools across the US... Because game creation crosses several disciplines, the diversity of programs that offer such courses is stunning: Fine arts colleges, engineering schools, film schools, music schools, and even drama programs... The jobs vary from inventing characters, to writing dialogs, composing music, creating digital scenes, and writing software that rules the fantasy worlds.</blockquote>
+
+<h2>Calculating the future</h2>
+
+The article is about the scope and challenges of computer power in climate research. It's amazing how many input variables researchers have to account for considering all the possible permutations and a complex effect of one variable on others. Multiply this on the number of 3D points the calculations have to be applied on and you get a clear picture of how process intensive those calculations are. The scope and complexity also results in a trade-off: <blockquote>Is it better to compute existing models in finer details, or to make the models bigger by adding more scientific content?</blockquote>
+
+<blockquote>If the limiting factor in running a climate model on a multiprocessor system is inefficient communication of information within the program, then the amount of processing power dedicated to solving equations falls and the model fails to take advantage of the raw processing power available. The programming model we use now is not viable anymore in the next couple of generations of computers...</blockquote>
+
+As in many other areas, the software is slow to take advantage of hardware evolution.
+
+<h2>The universe in Your Computer</h2>
+
+The article describes Microsoft's WorldWide Telescope (WWT) and Google sky. As a former teenager astronomer-enthusiast I found it fascinating that future generations of kids won't even have to have a telescope to study sky. All they would need is a computer and the Internet connection. I don't think, though, telescopes would ever go out of fashion. There is something magical in exploring the sky with your own eyes and catching a glimpse of a fallen star.
+
+Interesting excerpt in regards to bringing new forms of education into classrooms: <blockquote>Christin believes the key to Google Sky's success will be innovative educators. "I'm coming across the problem that the kids are way ahead of teachers," he says. "We need to get teachers... to understand that the student of the future and the worker of the future needs to be facile with finding information, analyzing it, applying critical thinking, making decisions, and finding the data they need to answer a question."</blockquote>
+
+<h2>Payment Via Wallet Phone</h2>
+
+<blockquote>There is also the major obstacle of working out new business models as the lines blur between banks, financial institutions, and cellphone companies.</blockquote>
+
+<h2>Get Smart</h2>
+
+The article is about context aware capabilities of future generations of smartphones.
+
+<blockquote>The problem with today's smartphones is that there's nothing terribly smart about them. Even the most souped-up devices amount to little more than stripped-down PCs, with tiny screens and maddening keyboards.
+
+The next generation of context-aware smartphones will take advantage of the growing availability of built-in physical sensors and better data exchange capabilities to support new applications that not only keep track of your personal data, but can also track your behavior and - this is where truly smart part will finally come into play - anticipate your intentions.
+
+Researches at PARC, based in Palo Alto, CA, proposed four levels of system awareness: basic context awareness (including location, time, and other details of physical environment); behavior awareness (typing, walking, standing, or clicking a button); activity awareness (shopping, dining, or traveling); and intent awareness (predicting the future).
+
+... To bring contextual computing to the masses, phone manufacturers and software vendors will have to overcome some major hurdles. Not the least of these is the lack of open standards for exchanging context data between applications.</blockquote>
+
+This seems to be the rule of the game. When any software or hardware technology advances high enough to create a niche market, one of the biggest hurdles to bring the technology to the masses is the lack of open standards.
+
+<h2>Law and Technology. The End of the Generative Internet</h2>
+
+Jonathan Zittrain, the author of <a href="http://www.amazon.com/gp/product/0300151241?ie=UTF8&tag=fibonaccisolu-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0300151241">The Future of the Internet--And How to Stop It</a><img src="http://www.assoc-amazon.com/e/ir?t=fibonaccisolu-20&l=as2&o=1&a=0300151241" width="1" height="1" border="0" alt="" style="border:none!important;margin:0!important;" />, shares his thoughts on platforms market and its future implications. This is a pretty interesting analysis of likes of Apple and Facebook.
+
+<blockquote>The book'd thesis is that the mainstream computing environment we've experienced for the past 30-plus years ... is an anomaly... The basic building blocks of modern IT are PCs that anyone can reprogram, connected to an Internet that unquestioningly routes bits between two arbitrary points. This has led to a generative revolution  where novel and disruptive technologies have come from obscure backwaters - and conquered. While incumbents bet on gated-community networks like CompuServe, Prodigy, and AOL, or maker of "smart appliances" such as dedicated word processors and video-game consoles, dark-hourse candidates like the Internet and the PC emerged unexpectedly and triumphed, helped along by commercial forces that belatedly hpped on their bandwagons.
+
+So why anomalous?</blockquote>
+
+Interesting thesis and even more interesting analysis.
+
+<blockquote>Imagine if Windows had adjusted Windows to act the way the iPhone and Facebook aoos platforms do.
+
+The iPhone apps model is powerful, and it is serving some useful purpose in shielding people, prospectively and retroactively against bad code.</blockquote> 
+
+... but not against bad apps. Couldn't refuse to add. Anyway this is a serious article with many provocative points:
+
+<blockquote>... We likely wouldn't accept this situation in PC architecture, and yet it is commonplace in the ecosystem that will soon replace it. ... but even if one vendor doesn't capture the mobile phone or social networking spaces, the choices among them are shaping up to be choices among gates communities: equivalent of old AOL vs. Prodigy vs. CompuServe... This is one reason why Google's Android project is so fascinating: and attempt to bring the generativity of the PC to the mobile phone space. Without a security model better than the PC's security provisions, however, Android is a tough proposition. How long will users tolerate a phone for which clicking on the wrong link can disable it?</blockquote>
+
+Good question especially if you take into consideration the previous article from the same issue: "Payment Via Wallet Phone". If you phone is more then just a phone then will you be comfortable without a centralized body of control?
+
+<blockquote>The way forward - for both PCs and smartphones - lies in a new security architecture that lets users make better-informed decisions about whether to run new software...  There are many details to work out, but without ways of managing our generative platforms without a central gatekeeper, chances seem strong that most people will accept - even demand - outside control.</blockquote>
+
+<h2>From the Front Lines. Ground Control to Architect Tom...</h2>
+
+Humorous article with an awesome summary:
+
+<blockquote>The ability to create an illusion of knowledge among people who don't know any better is really a trait of a shrewd salesperson, not a software architect.</blockquote>
+
+I'm heavily involved in hiring processes of technical talent at Boats.com/YachtWorld.com and I can attest that there are few shrewd and really slick people who are pretty good at creating illusion of knowledge.
+
+<h2>The Business of Software. The Ontology of Paper.</h2> 
+
+Interesting article about a diminishing role of paper in designing complex systems. The author still pays respect to paper and gives examples what it's good for. One aspect of the article that drew my attention is a reference to steam engines. Now, as a software engineer, I know exactly when to start thinking about a new career.
+
+<blockquote>It's a common cliche that we are currently going through an "Information Revolution" that may be more profound in its consequences than the development of steam engines was in the Industrial Revolution. This is undoubtedly true, but it is missing one important point: the Industrial Revolution did not occur when we built steam engines, it occurred when we used steam engines to build steam engines.
+
+The true information and computing revolution will not occur until we use software to build software; until we really use executable knowledge to create executable knowledge.</blockquote>
+
+<h2>Eventually Consistent</h2>
+
+If you're looking at this issue in a store then this article is enough to swing your vote and get the magazine. I follow religiously the blog of Werner Vogels where he published the <a href="http://www.allthingsdistributed.com/2007/12/eventually_consistent.html">original post</a> served as a basis for this article. That blog post was the most interesting in 2007 in my books. When I first read it I felt enlightened because so much new knowledge opened before my eyes, and I also felt insignificant and dwarfed before challenges some people were facing. I think every IT professional should read this article.
+
+<h2>The Long Road To 64 Bits</h2>
+
+Discovery of the issue. I ventured to read this article thinking that I would drop it soon after because it would cater primary to hardware folks. I was wrong. I finished it in one gulp and found it extremely interesting for software people as well. The article masterfully tells a story of a painful progress to 64 bits and shares invaluable lessons:
+
+<blockquote>Standards often get created in nonstandard ways, and often, de facto standards long precede oficial ones.
+
+Reasonable people can disagree, especially when looking at different sets of data.
+
+Sometimes one must work with competitors to make anything reasonable happen.
+
+Programmers take advantage of extra bits or ambiquity of specification...
+
+Code can be recompiled, but once data gets written somewhere, any new code must still be able to describe it cleanly. Current software is rarely done from scratch but has to exist inside a large ecosystem.
+
+Hardware decisions last a long time, but software decisions may well last longer. If you're a practicing programmer, take pity on those who end up maintaining your code, and spend sometime thinking ahead. Allow for natural expansion of hardware, hide low-level details, and use the highest-level language you can. C's ability to make efficient use of hardware can be both a blessing and a curse.</blockquote>
+
+<h2>Computational Challenges in E-Commerce</h2>
+
+<blockquote>In this article, we prove an overview of four areas of computation in which incentives play a crucial role: resource allocation, knowledge integration, peer production and interaction, and the security and privacy.
+
+Allocating scarce resources - from bread to bytes - is a fundamental process that permeates economics and, indeed, society...
+
+Advertising is a business based on allocating attention, one of the scarcest and most valuable of resources...</blockquote>
+
+<h2>Voyagers and Voyeurs: Supporting Asynchronous Collaborative Visualization</h2>
+
+<blockquote>This article describes mechanisms for asynchronous collaboration in the context of information visualization, recasting visualization as not just analytic tool, but social spaces. We contribute the design and implementation of sense.us...</blockquote>
+
+<h2>My sentiment from this issue</h2>
+
+Mobile computing is rivaling PCs.
