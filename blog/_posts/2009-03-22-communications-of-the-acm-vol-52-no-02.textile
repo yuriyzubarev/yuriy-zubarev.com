@@ -1,0 +1,87 @@
+---
+layout: post
+title: Communications of the ACM 02/09 vol. 52 no. 02
+---
+<h2>Photography's Bright Future</h2>
+
+<blockquote>“There is tremendous enthusiasm for computational photography,” says Shree Nayar, a professor of computer science at Columbia University. “The game becomes interesting when you think about optics and computation within the same framework, designing optics for the computations and designing computations to support a certain type of optics.”
+
+One of the most visually striking examples of computational photography is high dynamic range (HDR) imaging, a technique that involves using photoediting software to stitch together multiple images taken at different exposures.
+
+“We’d like to do the same thing with cameras,” Levoy says. “We’d like to allow a researcher to program a camera in a high-level language, like C++ or Python. I think we should have something in a year or two.”</blockquote>
+
+This is pretty interesting. Cameras are following the footsteps of mobile phones. Soon, taken YachtWorld.com as an example, we will be writing Python scripts to automatically upload photos of yachts our brokers are taking. Those photos will be automatically cropped inside the camera itself and then uploaded to our Inventory Management Tool providing right credentials. Future does look interesting.
+
+<h2>The Extent of Globalization of Software Innovation</h2>
+
+<blockquote>Has innovative activity in software become global? The question attracts interest because software has become a global business. For example, exports of business services and computer and information services grew at an average annual rate
+of 27% in India (1995–2003) and at a rate of 46% in Ireland (1995–2004), with similar rapid growth in Brazil, China, and Israel. Yet, the question remains open. While software production takes place in many countries, innovative software is not created everywhere.
+
+In many cases innovation cannot be defined. For that matter, sometimes software cannot be defined.
+
+One measure of innovation appears in patent data. To be sure, not all inventions are patented and not all patents are important. ... In 2007, 12,692 U.S. software patents were issued to inventors in the U.S.—a larger number of patents than all other areas of the world combined (6,397).
+
+A key determinant of the location of development activities in software is the location of the user. This is particularly true with business software, which is often bundled with a set of business rules and assumptions about business processes.
+
+We see the same pattern today. Conditions for development of innovative new software products (and software firms) are propitious when they occur in proximity to potential lead users. A good example is Israel’s longstanding strength in security software, which arose in part due to the advanced needs of the Israeli defense forces.
+
+... The firms we interviewed told us that supplies of fresh engineering graduates were plentiful in India, but it was much more difficult to find developers with project management experience and more difficult still to find those with critical business knowledge.
+
+What will the future bring? First, it does appear software product development and testing activities have become increasingly global. ... 
+
+Many of these entry-level jobs are now going overseas. A declining demand today for entry-level programming jobs in the U.S. and increasing demand elsewhere could make it more difficult for U.S. workers—and relatively easier for those from other countries—to perform complex software design activity in the future. The implications of this would be a more globally dispersed pattern of innovation in software than we see today.</blockquote>
+
+This makes a lot of sense. If I take only a technical knowledge from my 10 year IT experience, it wouldn't be valued that much on its own. What gives it an extra value is a context of business problems that I had to understand first before coming up with a technical solution. I've been fortunate to participate in many sessions with subject matter experts and acquire knowledge from many different areas: HR, telecommunications, billing, sales, advertising and management. Having technical skills and understanding of a business is exactly what gives me, and many others like me, an advantage in coming up with innovative solutions. But it all started with me, as a junior programmer listening to "mambo-jumbo" of our director of HR. If today's junior developers cannot get jobs because those jobs are mostly technical and it's cheaper to outsource them, then developers from other countries will slowly start building up business knowledge and centers of innovations will be indeed dispersed. The lesson here is to be more then just a programmer to be in demand - you have to have people, organizational and leadership skills, and business knowledge from couple of areas.
+
+<h2>Parallel Programming with Transactional Memory</h2>
+
+Good article that goes through theory, problems, potential solution and current state of Transactional Memory. It was interesting to see that databases were used to illustrate how transactions help with the problem of consistency. Everything old is new again. I already saw couple of projects using Transactional memory approach popping up on the horizon. I think I will wait a bit longer before given them a try:
+
+<blockquote>TM promises to make parallel programming much easier. The concept of transaction is already present in many programs (from business programs to dynamic Web applications) and it proved to be reasonably easy to grasp for programmers. We can see fi rst implementations coming out now, but all are far from ready for prime time. Much research remains to be done.</blockquote>
+
+<h2>Improving Performance on the Internet</h2>
+
+The article is written by co-founder of Akamai Technologies who serves as chief scientist there. The article introduces the concept of "middle mile", highlights the challenges it presents and offers a look at the approaches to overcome these challenges.
+
+<blockquote>When it comes to achieving performance, reliability, and scalability for commercial-grade Web applications, where is the biggest bottleneck? In many cases today, we see that the limiting bottleneck is the middle mile, or the time data spends traveling back and forth across the Internet, between origin server and end user.
+
+On the other hand, the Internet’s middle mile—made up of the peering and transit points where networks trade traffic—is literally a no man’s land. Here, economically, there is very little incentive to build out capacity. If anything, networks want to minimize
+traffic coming into their networks that they don’t get paid for. As a result, peering points are often overburdened, causing packet loss and service degradation.
+
+It turns out that because of the way the underlying network protocols work, latency and throughput are directly coupled. TCP, for example, allows only small amounts of data to be sent at a time (that is, the TCP window) before having to pause and wait for acknowledgments from the receiving end. This means that throughput is effectively throttled by network round-trip time (latency), which can become the bottleneck for file download speeds and video viewing quality.
+
+Four Approaches to Content Delivery
+
+Centralized Hosting. Traditionally architected Web sites use one or a small number of collocation sites to host content.
+
+“Big Data Center” CDNs. Content delivery networks offer improved scalability by offloading the delivery of cacheable content from the origin server onto a larger, shared network. It may seem counterintuitive that having a presence in a couple dozen major
+backbones isn’t enough to achieve commercial-grade performance. In fact, even the largest of those networks controls very little end-user access traffic. For example, the top 30 networks combined deliver only 50% of end-user traffic, and it drops off quickly from there, with a very long tail distribution over the Internet’s 13,000 networks. Even with connectivity to all the biggest
+backbones, data must travel through the morass of the middle mile to reach most of the Internet’s 1.4 billion users.
+
+Highly Distributed CDNs. Another approach to content delivery is to leverage a very highly distributed network—one with servers in thousands of networks, rather than dozens. On the surface, this architecture may appear quite similar to the “big data center” CDN. In reality, however, it is a fundamentally different approach to content-server placement, with a difference of two orders of magnitude in the degree of distribution.
+
+Peer-to-Peer Networks. P2P can be thought of as taking the distributed architecture to its logical extreme, theoretically providing nearly infi nite scalability. Moreover, P2P offers attractive economics under current network pricing structures. In reality, however, P2P faces some serious limitations, most notably because the total download capacity of a P2P network is throttled by its total uplink capacity.
+
+... but many optimizations are made possible by using a highly distributed infrastructure:
+
+Optimization 1: Reduce transportlayer overhead.
+Optimization 2: Find better routes.
+Optimization 3: Prefetch embedded content.
+Optimization 4: Assemble pages at the edge.
+Optimization 5: Use compression and delta encoding.
+Optimization 6: Offload computations to the edge.
+
+Designing a scalable system that works under these conditions means embracing the failures as natural and expected events. The network should continue to work seamlessly despite these occurrences. We have identified some practical design principles that result from this philosophy, which we share here:
+
+Principle 1: Ensure significant redundancy in all systems to facilitate failover.
+Principle 2: Use software logic to provide message reliability.
+Principle 3: Use distributed control for coordination.
+Principle 4: Fail cleanly and restart.
+Principle 5: Phase software releases.
+Principle 6: Notice and proactively quarantine faults.
+
+</blockquote>
+
+
+
+

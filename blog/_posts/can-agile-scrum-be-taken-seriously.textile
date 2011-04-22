@@ -1,0 +1,18 @@
+---
+layout: post
+title: Can Agile/Scrum be taken seriously?
+---
+The Agile Samurai: How Agile Masters Deliver Great Software
+
+Lean Architecture: for Agile Software Development
+
+Kanban and Scrum - making the most of both
+
+Agile Excellence for Product Managers: A Guide to Creating Winning Products with Agile Development Teams
+
+Practices for Scaling Lean & Agile Development: Large, Multisite, and Offshore Product Development with Large-Scale Scrum
+
+Scrumban - Essays on Kanban Systems for Lean Software Development
+
+Lean, Agile And Six Sigma Information Technology Management: New Stratagems To Achieve Perfection
+

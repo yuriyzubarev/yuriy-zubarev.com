@@ -1,0 +1,93 @@
+---
+layout: post
+title: New York ITARC 2009, Day 3
+---
+The third day started with probably the best keynote presentation of the whole conference. Of course I'm talking about <strong>Grady Booch </strong>and his <strong>"Thoughts on Architecture"</strong>.
+
+<img src="http://midnightit.files.wordpress.com/2009/10/grady-booch.png" width="450" height="338" />
+
+<blockquote>If I had the whole day I would tell you all the things that I don't understand about architecture. But I have 1 hour only, so I will tell you what I reasonably understand.</blockquote>
+
+I took a picture of almost every slide from this presentation but I probably shouldn't post them here. Even if the legal aspects don't prohibit me from doing so, the bare slides wouldn't make a justice to Grady's talk. You have to be there to hear how intelligently he weaves the slides together and produces a though-provoking story on architecture. Here are just some notes I found particularly memorable:
+
+<ul>
+<li>One of the greatest challenges is to connect Enterprise Architecture to Software Architecture</li>
+<li>Google is not search but an advertising companies. Interesting to see where they end up.</li>
+<li>Innovation cannot be outsourced. Grady gave GM a really hard time here, calling their decision to outsource all software development the stupidest thing.</li>
+<li>Grady was surprised and pleased to see how far UML went but he never intended it to be a programming language (shot at MDD)</li>
+<li>It was interesting to learn that Grady was a very spiritual person. He is on the board of Iliff School of Theology in Denver.</li>
+<li>Presence of software intensive systems changes the context in which they run - it offers additional capabilities.</li>
+<li>Grady disagreed with previous comparison of architecture to a road, made by William H. Inmon on the first day. He said the road was just a tactical decision. Grady then spent some time going through his famous "Architecture is like river" work.<blockquote>You cannot move the river. You can only move banks. The river will do what it will do.</blockquote> There are many forces in the river ecosystem. Architecture is to balance those forces.</li>
+<li>The industry has responsibility for legal, ethical and moral aspects of the architecture profession. This is one of the biggest challenges for the future.</li>
+<li>Third edition of "Documenting Software Architecture" is coming!</li>
+<li>The reason why we have so many EA frameworks is because we don't have the right answer yet.</li>
+<li>The reason why we have fewer number of technical frameworks is because we are closer to the right answer here. Example: <a href="http://people.cs.ubc.ca/~gregor/teaching/papers/4%2b1view-architecture.pdf">4+1</a></li>
+<li>Models should be predictable and elicit questions</li>
+<li>IRS has an assembly program comprised of 5000 lines they cannot replace. Only one person knew how to run tax rebates promised by government last year. Ouch.</li>
+<li>Good documentation tip: if you can express it in programming language - don't put it in UML</li>
+<li>Google and Facebook also have architectural problems. (but he didn't elaborate)</li>
+<li>eBay spends 10% of their budget on refactoring</li>
+</ul>
+
+Grady's presentation was unique. He has the best grasp of English language I've ever heard. Each slide was like a poem: deep and beautiful. There was something profound in every statement he made. He's a very humble person and his eyes are paragon of sadness. I think they reveal the true love for what he does, acceptance of never ending challenges and a refusal to give up. He is an excellent ambassador for IT architects and it was my sincere privilege to see and hear him speak.
+
+The next session was by <strong>Roger Sessions</strong> and it was called <strong>"Simple Iterative Partitioning"</strong>. Behind the cryptic name there was a straightforward message: complexity is the root of all IT troubles and we should relentlessly attack and eliminate complexity.
+
+Roger introduced Glass's Law and its application for IT. He used it to devise a concept of SCU - Standard Complexity Unit. He then used this combination to calculate a number that gave a certain design a definite numeric value for its complexity. This is an exciting development as far as I'm concerned. As a saying goes: "you can't manage what you can't measure".
+
+<img src="http://midnightit.files.wordpress.com/2009/10/glass-law.png" width="450" height="338" />
+<br>
+<img src="http://midnightit.files.wordpress.com/2009/10/glass-law-it.png" width="450" height="338" />
+
+Here are some highlights:
+
+<ul>
+<li><blockquote>Grady said we have to have simple systems. But how do we know the system is simple? Grady gave metrics but they are not enough. Sometimes they can only be applied to the system once it's completely built.</blockquote></li>
+<li>Code re-use can sometimes create more complex systems.</li>
+<li>There is no simplicity, there is a relative absence of complexity just like there is cold, there is an absence of heat.</li>
+<li>Yesterday Len Bass presented us with six key non-functional architectural requirements, but where is simplicity among those six?</li>
+<li>By measuring complexity of solutions and using SIP, we can part ways with "decibel based decision making"</li>
+<li>If you want high availability, you build simplicity, not redundancy</li>
+</ul>
+
+There parting thoughts:
+
+<ul>
+<li>Complexity is the enemy</li>
+<li>It's simple to make things complex. It's complex to make things simple, thus the paradox.</li>
+<li>Only the simple will survive</li>
+</ul>
+
+The conference ended with a <strong>thought leaders panel</strong>. All the questions but one was asked by Paul Preiss. Here are some most memorable excerpts:
+
+<ul>
+<li>Q: what's in store for architecture in 5 years?
+<ul>
+<li>Scott Anderson: cloud computing will mean more changes to service companies than to architects themselves</li>
+<li>Lean Bass: a) we will see a bigger split between state of art and state of practice in the architecture; b) the trend is that we're casting ourselves as dictators on what should be done</li>
+<li>Paul: questions of ethics and integrity will move closer toward central stage</li>
+<li>Angela: a) I would like to see us more as a community; b) architects in large companies will get a seat at stakeholders table</li>
+<li>Roger Sessions: problem of complexity will be the most critical one</li>
+<li>Grady Booch: a) software intensive systems will keep increasing in their complexity and we have to counter-balance it by increasing transparency; b) we will still be arguing what architecture means</li>
+</ul>
+</li>
+
+<li>Q: What would our commercial be?
+<ul>
+<li>Scott: "Architects - we make order out of IT chaos"</li>
+<li>Paul: "Technology working for you and making you more human"</li>
+<li>Angela: "First call you make is for architects. Architects - foundation of your business"</li>
+<li>Roger: "Simplifying world one IT project at a time"</li>
+<li>Booch: "Join IASA and improve your sex live". (did I miss something about this conference?)</li>
+</ul>
+</li>
+
+<li>Q: what would you take with you on a deserted island?
+<ul>
+<li>Grady: "How to build a boat" book</li>
+</ul>
+</li>
+
+</ul>
+
+<img src="http://midnightit.files.wordpress.com/2009/10/thought-leaders-day3.png" width="450" height="338" />
