@@ -1,9 +1,0 @@
----
-layout: post
-title: IEEE Computer December 2008
----
-<h2>Third-Generation RFID Is on It's Way</h2>
-
-<blockquote>Early tags were passive, using signals from RFID readers to power up. Newer technologies use active tags, which have their own battery power. The added power increases their communication range.
-
-The third generation of RFID - called wireless-sensor-network (WSN) technology - works with active tags. They gather information and then send it from tag to tag over a mesh network until it reaches the location at which the data will be processed.</blockquote>
