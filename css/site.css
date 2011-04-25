@@ -1,0 +1,15 @@
+body {
+    font-family: monospace, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    line-height: 130%;
+    color: #222;
+}
+
+a, a:hover, a:active {
+    color: #b40;
+}
+
+h1 a, h1 a:link, h1 a:visited {
+    text-decoration: none;
+    color: #222;
+}
+
