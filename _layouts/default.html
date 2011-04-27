@@ -27,21 +27,16 @@
 
   <body>
 
+      <header class="container_12">
+         <h1 class="grid_12"><a href="/">Yuriy Zubarev</a></h1>
+      </header>
+
+      <div class="clear"></div>
+
       <div class="container_12">
-          <div class="grid_12">
-              <header><h1><a href="/">Yuriy Zubarev</a></h1></header>
-          </div>
-
-          <div class="clear"></div>
-
-          <div class="grid_12">
-              <div id="content">
-                  {{ content }}
-              </div>
-          </div>
-
+          {{ content }}
       </div>
-          
+
     {% for js in page.javascript %}
       <script type="text/javascript" src="{{ js }}"></script>
     {% endfor %}
