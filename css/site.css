@@ -24,12 +24,6 @@ header h1 {
     text-decoration: none;
 }
 
-.code {
-    width: 100%; 
-    overflow: auto; 
-    overflow-y: hidden
-}
-
 blockquote {
     quotes: /* “\00AB” “\00BB”;*/ none;
     border-left: 10px solid #ccc;
@@ -48,4 +42,13 @@ blockquote:after {
 blockquote p {
     /* display: inline;*/
 }
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-top: 1px solid #ccc;
+}
+
 

@@ -10,9 +10,7 @@ Problem: need a quick way to monitor number of queries executed by Hibernate as 
 
 Solution:
 
-<div class="code">
 {% highlight bash %}
 echo "0" > counter; while true; do CURRENT=`wc -l hibernate.log | awk '{print $1}'`; echo $(($CURRENT - `cat counter`)); echo $CURRENT > counter; sleep 5; done
 {% endhighlight %}
-</div>
 
