@@ -70,3 +70,4 @@ bq. OK, so this leads to a concept we call one playbook per project. Now, the wa
 bq. ... Or optimization -- optimization projects that don't really go after the sacred cows. So you optimize everything except sales and engineering. So you just beat the -- out of the people that are in the cafeteria but if it's an engineer or sales person, oh, wow, I can't touch those two. Well, 85% of your head count it's 100% of the things that are making the difference, so it's like crazy enough to optimize important things. 
 
 
+
