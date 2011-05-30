@@ -1,0 +1,72 @@
+---
+layout: post
+title: Reach Your Escape Velocity
+---
+
+Source: "http://ecorner.stanford.edu/authorMaterialInfo.html?mid=2725":http://ecorner.stanford.edu/authorMaterialInfo.html?mid=2725
+
+bq. This notion of the problem of we're stuck and it just -- I have to say it's virtually universal. People kind of get, look, we have a successful franchise but you can't stand still intact between technology and globalization. Things are really, really moving. Now, that's great news for opportunity but it's also for people that stand still, it's a threat. As our friends at Boarders, for example, discovered this year and numerous other companies. So everybody gets that they've got to engage growth. It's not like, hey, I've got an idea for you. They got it. What they don't like talking about which they universally acknowledge is there is massive internal resistance to moving resources away from established activities into new activities; massive.
+
+bq. So the problem is the new stuff, it's not that there's not new stuff, there's tons of new stuff but it doesn't ever reach materiality. Meaning, in never reaches like being 10 or 20% of the total company's revenue. It gets announced, it gets started and then somewhere along the line it dies from the vine. And so that's where we came with this notion. These are questions that basically our clients ask us. That's where the title came from. How can we achieve a escape velocity? How do we free ourselves from the pull of the past? So just to make clear, this is not a trivial problem nor is it trivial companies that have struggled with this problem.
+
+bq.. So the question then becomes, what the heck is going on?
+
+So what's the mistake we keep making over and over again? So it turns out the way that the global management system works, and largely this is a management system that was developed in the United States, but it's become completely global. It's a performance-oriented management system. That's how people get compensated in large corporations.
+
+And we're good at managing it, but here is the second sense, power fuels performance and performance consumes power. That is not visible in a large corporation.
+
+Well, consuming power in most compensation systems, in most corporations is free. And further more, creating power, say around a new strategy, is not compensated. So I get compensated for consuming power for my performance. I do not get compensated nor do am I held accountable except in the most kind of qualitative ways for generating power. So why would you be surprised that large organizations systematically consume their power?
+
+bq. And so what the -- we created a model called the hierarchy of powers. It's kind of a framework of frameworks. And the intention of this hierarchy is to let people sort out the power equation in a set of levels that make sense. So the hierarchy of power is just five powers but you talk about each power separately from the other four and you talk about them in sequence from top to bottom. 
+
+bq. ... category power has to do with how fast are the categories that you are in growing? Because if you're in a category that's growing 100%, even if you're kind of a doofus, you're probably going to do pretty well this year. And investors aren't stupid. By the way, vice versa, if you're in a category that's growing at 4%, you have enormous pressure on you to make sure you make every penny of your earnings. And it's very, very hard for you to do much better than that because the category is giving you no lift whatsoever. You can take share in a category that's not growing but not forever. Eventually, you run into a wall. So investors at the margin would prefer your company to be in high-growth categories, not low growth. So a company like General Electric would routinely sell off low-growth businesses in order to get capital to buy high-growth businesses and they would kind of migrate the footprint of the corporation going forward. That's in order to have more category or power. You can hold your company accountable to what category is you're in. The board of directors can hold the management team accountable to that. 
+
+bq. The next one is company power. So in the categories you're in, how powerful? Do you control your own destiny or somebody else is calling the tune and you're just trying to keep step and keep pace with them? This is market share. This is Jack Welch saying, you want to be number one or number two or you don't want to play because you wouldn't have enough company power to get the return on being in that category. You ought to get out of that category and get into some categories where you can be number one or number two. So it's about power. 
+
+bq.. The third one is market power that has to do with, are you in the markets that are the fastest growing segments or the more strategic segments? Now, category and market sometimes get confused but *category is defined by a group of competitors and markets are defined by a group of customers.*
+
+So a market is about getting a group of customers and the idea here is a little bit like winning primaries for a presidential nomination. You want to win in New Hampshire primary. There are not very many delegates in New Hampshire but is a very strategic primary to win. And in markets, there are always segments that are early bellwether segments that are different for different markets, different technology, different categories, well, there's always some. And so winning those early or maybe there's a segment that's in transition where the segment like this particular part of the economy is completely being disrupted by the Internet this year so whatever they're going to buy, they're going to buy this year. So get in there and be successful if it's the kind of stuff that you sell. That's what market power is about; winning segment shares in the critical segments. 
+
+bq. Offer power is based on how compelling is your offer compared to the rest. We're talking about differentiation. How different is it, but then also how comparable is it to the -- are you living up to the norms of your category?
+
+bq. And then execution power is, when you guys set yourself out to do something, when you're going to enter a new category, when you're going to do one of these transformational initiatives, can you actually get it done or do you find yourself kind of redoing it? 
+
+bq. ... One of the things Steve is about is he cares about power and he assumed performance will take care of itself. Jeff Bezos is the same way to Amazon, that's why periodically, he does stuff that just drive the shareholders crazy because he gives away performance in the short-term because he says, I want the power.
+
+bq.. OK, great, great, great. What do you do? How do we start? 
+
+You can start at any point in this hierarchy. You can start with the category power level which tends to be we need to look at portfolio. We tend to have way too much money in aging categories with the Boston Consulting Group calls, cash cows and we don't have enough rising stars. So that could be the problem. Or we can say, no, it's a company power problem and the problem is we can never -- first of all, we can kill nothing and second of all, we can never really make any big bets. Every big bet we hedge and after a while we're like the person at the roulette table who put the chip on every single square. So we win every time. Except, we just lose money. So on the market focus, we can actually go after markets in a directive way. It turns out it's extremely hard for large corporations to go after niche markets. But it's critical. It's critical because otherwise, you'll end up coming in second or third in every primary in the entire election and you don't get nominated, right? 
+
+bq. There are ways to organize inside a large company to create -- carve out an entrepreneurial space not just to incubate innovation because all of them do that but to actually go from an incubated innovation to a material business. That's when they all get killed and so there's a whole thing around execution power and organization for dealing with that. 
+
+bq. In general, by the way, venture investing is about power and public exchange investing is about performance if you think about it. Because in a venture-backed company, there's not enough revenue to really say the performance is the game changer. It's power is the game changer in venture.
+
+bq. I am now -- what is amazing about tech by the way, is that product managers -- the unit of wealth creation in tech all of my life has been the product. Now increasing the service as a sort of invisible product. The product and product management is largely conducted by people in the first 10 years of employment. So all of a sudden, relatively early in a career, unlike most professions, most other industries, you actually have your hand on the tiller that changes that fate of your company. So it's an amazing privilege to work in a high tech company because the amount of power you get short -- particularly if you can get into this role of product marketing and product management.
+
+bq. And whenever you charter a single team in a single project stream to do two or more, you're screwing up. And I would say that 99% of all the project streams I see are combinations of those three things which is a fairly high ratio for screwing up. 
+
+bq. ... Pretty obvious and pretty exciting and by the way, every engineer in the world wakes up thinking that's what I do for a living. I'm the smartest person on the planet and I will be able to demonstrate it. Neutralize, catch up with the competition, nobody likes to do this. Nobody likes to do this. But they get -- but it's part of being an adult. 
+
+bq.. So differentiation. First of all, well, it's different but the thing is if you've ever actually noticed the world, everything is different. There's no two things that are the same, right? So different isn't a big deal, OK? 
+
+This differentiation along a vector value, OK, so how much differentiation do we have and can we go beyond the limits of the competitive set?
+
+So you can't just say I'm different, you have to say I'm also meeting the norms of the category in the stuff that I'm not trying to differentiate...
+
+So the net differentiation is what -- as an offer manager, product manger, service manger, that's what I want you to think about. Every year my power increased because my net differentiation increased relative to my competitive set in my category. 
+
+bq.. There's a sentence in that thing, the new CEO of Nokia, he writes a memo that's a public memo to the world which says how is it possible that Apple came out with an iPhone in 2007 and Nokia does not have response? Would you want to answer that question? Gee, Steven, I wasn't the product manager. 
+
+But the point was -- so ask yourself why. Why do you think? I don't know but my bet is because the engineers at Nokia were too proud to neutralize because they wanted to differentiate. They wanted to over leap the over leaper. And when you do that, you leave year after year after year of no effective response in the market which is absolutely fatal. 
+
+bq.. Google apps versus Microsoft Office, Google is not trying to beat Microsoft Office, it's just trying to annoy them. It's just trying to keep them busy and to kind of keep something going. Yahoo on the other hand, was more like Nokia. Yahoo wanted to overtake Google Search. It was kind of like Captain Ahab and the white whale and it was a quest. And it was a fatal quest. And so what Carol had to do is get in and sell off the business because she had to free her company's future from the pull of the past. That was a really, really important thing for her to do.
+
+ Apple and Kindle, so what did Apple do with Kindle? It co-opted it. Kindle -- most people -- most read their Kindle books on iPads because they co-opted it. Whereas the borders and their thing...
+
+bq. ... This is what Microsoft does better than any company in the world by about an order of magnitude and maybe not so much anymore as they used to. But this is the thing, this is why Microsoft could routinely let anybody innovate anything and say I'm going to take it away from you. I'm going to take it away. I'm going to be good enough very quickly and then eventually I'm going to assimilate it either Windows or Office. One of the two. All life will be part of either Windows or Office. 
+
+bq. OK, so this leads to a concept we call one playbook per project. Now, the way you fund things in the world probably you have one budget that has to be split among those three things. All I'm asking you to do is don't tie the differentiation train to the neutralization train or either of them to the optimization train. Have three trains manage them separately. You manage it one for speed, one for distance and one for fuel. 
+
+bq. ... Or optimization -- optimization projects that don't really go after the sacred cows. So you optimize everything except sales and engineering. So you just beat the -- out of the people that are in the cafeteria but if it's an engineer or sales person, oh, wow, I can't touch those two. Well, 85% of your head count it's 100% of the things that are making the difference, so it's like crazy enough to optimize important things. 
+
+

@@ -1,0 +1,9 @@
+Information overload is too much to bear. Websites, twits, RSS feeds, alerts, emails, newsletters, podcasts, printed publications. I want to be well read and well informed. I want to know what's going on in my industry. I want to know what's going in the world. I want to be able to carry on a conversation and don't look like an uneducated fool. I don't want to spend all my time worried that I will miss some important piece of news.
+
+I want to have my weekly read, be done with it and be "WELL READ". I want to select categories and I want to select how much information I need. I want to get it on my iPad, I want to access it on the Web. May be I even want it printed out. I want to rate my articles. I want to be the chief editor - I liked this, I didn't like that, and I want my choices to be reflected in the next issue.
+
+What do we have?
+
+Customer (I) gets in Issue by different Distribution Channels. I select how Frequently I get it, which Categories I'm interested in, who the Editor is for which category. I want to Rate each Article on how much I liked it. I want to see how are the most popular editors.
+
+[google news API? do they have it? Can I get most popular articles based on Category?] - no they don't have it. they have search and embed API but nothing that speaks of popularity
