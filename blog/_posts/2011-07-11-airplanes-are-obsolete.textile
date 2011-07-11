@@ -1,0 +1,16 @@
+---
+layout: post
+title: Airplanes are Obsolete
+---
+bq.. NASA declared airplanes obsolete and not capable of meeting demands of orbital and interplanetary space flights.
+
+“We’re not just talking about propeller aircrafts anymore. Even the latest airliners like Airbus A380 and Boeing 747 fall short of modest expectations of simple sub-orbital space flights.” - commented Joanna Igobins, the official NASA spokesperson. “How is one supposed to reach an altitude of a mere 100 km if those birds already want to nose dive at 15 km? And even if one could, it would take a heck of a long time doing so at 1,000 km/h” - she added forcing an awkward smile.
+
+Chief NASA technologist John Binogis was even more critical: “Space exploration is not on a fringe anymore. Today you may need to cover a range of only 15,000 km, and the next week you might be thinking of traveling distances of 100 and 1000 times longer. Turbines got you here but they are not going to thrust you to the Mars. It was a good technology for its days and those days are over. The days of Airbus and Boeing are over as well. They are trying to sell us their outdated technologies at the time when everybody knows that rocket-powered spacecrafts can handle bigger payloads at significantly longer distances.”
+
+“You can trick your grandma but you ain’t tricking me. You cannot call yourself a pilot if you’re still flying those dinosources. It ain’t no cool, it ain’t no hardcore.” - stated Johny Gobi, a young astronaut with over-developed sense of self-importance.
+
+Jouahn Gisbinos, a representative from one of NASA fulfilment partners observed that: “... we haven’t received a single order for atmospheric crafts in the last 3 years. We are recommending to all of our customers to start looking past conventional airplanes if they don’t want to be left behind”.
+
+p. Sounds silly and far-fetched? Not if you’re in IT and software industry. It ain’t no hardcore if you’re not running NoSQL on the cloud. After all, that what Facebook might be doing, and clearly, we all have the same scalability concerns as they do.
+
