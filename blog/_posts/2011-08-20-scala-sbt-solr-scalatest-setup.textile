@@ -1,0 +1,235 @@
+---
+layout: post
+title: Set-up for Testing Solr backed Scalatra app with SBT and ScalaTest 
+---
+
+We are in a process of rolling out Scalatra application that will be powering our new inventory Web Services at Dominion Marine Media. Everything about the new stack has been new to me, and it took me some time to get the project in a state where an automated unit/functional testing is set up in a decent way. Here I'm going to share the project set-up and hopefully it will help somebody to save hours or days. I fully aknowledge that there might be a better way of doing the same thing, so you're warned.
+
+Technology stack:
+* Scala 2.9
+* Solr 3.3
+* SBT 0.10
+* Scalatra 2.0.0.M4
+* ScalaTest 1.6
+
+Project layout and the key files:
+
+{% highlight text %}
+my-project\
+    |- build.sbt
+    |- project\
+        |- build.properties
+        |- plugins\
+            |- build.sbt
+    |- src\
+        |- main\
+            |- scala\
+                |- MyResource.scala
+                |- SolrServerProvider.scala
+            |- webapp\
+        |- test\
+            |- scala\
+                |- EmbeddedSolr.scala
+                |- MyResourceTest.scala
+                |- ScalatraSolrSuite.scala
+            |- resources\
+                |- solr\
+                    |- solr.xml
+                    |- conf\
+                        |- schema.xml
+                        |- solrconfig.xml
+{% endhighlight %}
+
+Project files:
+
+my-project\build.sbt:
+
+{% highlight scala %}
+...
+
+scalaVersion := "2.9.0"
+
+resolvers ++= Seq(
+  "Sonatype Nexus Releases" at "https://oss.sonatype.org/content/repositories/releases"
+)
+
+libraryDependencies ++= Seq(
+  "org.scalatra" %% "scalatra" % "2.0.0.M4",
+  "org.scalatra" %% "scalatra-scalatest" % "2.0.0.M4",
+  "org.mortbay.jetty" % "jetty" % "6.1.22" % "test",
+  "org.mortbay.jetty" % "servlet-api" % "2.5-20081211" % "provided",
+  "org.apache.solr" % "solr-solrj" % "3.3.0",
+  "org.apache.solr" % "solr-core" % "3.3.0" % "test",
+  "org.apache.solr" % "solr-test-framework" % "3.3.0" % "test",
+  "commons-codec" % "commons-codec" % "1.5"
+)
+
+seq(webSettings :_*)
+{% endhighlight %}
+
+my-project\project\build.properties:
+
+{% highlight properties %}
+sbt.version=0.10.1
+{% endhighlight %}
+
+my-project\project\plugins\build.sbt:
+
+{% highlight scala %}
+resolvers += "Web plugin repo" at "http://siasia.github.com/maven2"    
+libraryDependencies <+= sbtVersion(v => "com.github.siasia" %% "xsbt-web-plugin" % ("0.1.1-"+v))
+{% endhighlight %}
+
+my-project\src\main\scala\SolrServerProvider.scala:
+
+{% highlight scala %}
+import org.apache.solr.client.solrj.SolrServer
+
+trait SolrServerProvider {
+
+    def solrServer(): SolrServer
+
+}
+{% endhighlight %}
+
+my-project\src\main\scala\MyResource.scala:
+
+{% highlight scala %}
+import org.scalatra._
+import scala.collection.mutable.{ArrayBuffer, Map}
+import org.apache.solr.client.solrj.{SolrServer, SolrQuery}
+import org.apache.solr.client.solrj.impl.CommonsHttpSolrServer
+import org.apache.solr.client.solrj.response.QueryResponse
+import org.apache.solr.common.SolrDocumentList
+import collection.JavaConversions._
+
+class MyResource extends ScalatraServlet with SolrServerProvider {
+    
+    get("/owner/:partyid/boats") {
+        val query = new SolrQuery()
+        query.setQuery("my query").addField("myfiled")
+        val rsp: QueryResponse = solrServer().query(query)
+        val docs: SolrDocumentList = rsp.getResults()
+
+        // generate appropriate output
+    }
+    
+    override def solrServer(): SolrServer = {
+        new CommonsHttpSolrServer("URL to your Solr instance")
+    }
+    
+}
+{% endhighlight %}
+
+my-project\src\test\scala\EmbeddedSolr.scala:
+
+{% highlight scala %}
+import org.apache.solr.client.solrj.SolrServer
+import org.apache.solr.util.TestHarness
+import org.apache.solr.core.SolrConfig
+import org.apache.solr.SolrTestCaseJ4
+import org.apache.solr.client.solrj.embedded.EmbeddedSolrServer
+import org.apache.solr.common.SolrInputDocument
+
+trait EmbeddedSolr extends SolrServerProvider {
+
+    override def solrServer(): SolrServer = {
+        return InstantiatedOnceEmbeddedSolr.solrServer()
+    }
+
+    def addToSolr(solr: SolrServer, fields: Map[String, String]) {
+        val document = new SolrInputDocument()
+        
+        fields.foreach { case(key, value) => document.addField(key, value) }
+        
+        solr.add(document)
+        solr.commit()
+    }
+    
+}
+
+object InstantiatedOnceEmbeddedSolr {
+
+    private var solr: SolrServer = _
+
+    def solrServer(): SolrServer = {
+        if (solr == null) {
+            System.setProperty("solr.directoryFactory","solr.RAMDirectoryFactory")
+            val dataDir = new java.io.File(System.getProperty("java.io.tmpdir"), getClass().getName() + "-" + System.currentTimeMillis())
+            dataDir.mkdirs()
+            val configFile = getSolrConfigFile()
+            System.setProperty("solr.solr.home", SolrTestCaseJ4.TEST_HOME())
+            val solrConfig: SolrConfig = TestHarness.createConfig(getSolrConfigFile());
+            val h: TestHarness = new TestHarness( dataDir.getAbsolutePath(), solrConfig, getSchemaFile())
+            val lrf = h.getRequestFactory("standard", 0, 20, "version", "2.2")
+            solr = new EmbeddedSolrServer(h.getCoreContainer(), h.getCore().getName())
+        }
+        solr
+    }
+
+    def getSolrConfigFile(): String = {
+        """solrconfig.xml"""
+    }
+  
+    def getSchemaFile(): String = {
+        """schema.xml"""
+    }
+    
+}
+{% endhighlight %}
+
+my-project\src\test\scala\ScalatraSolrSuite.scala:
+
+{% highlight scala %}
+import org.scalatra.test.scalatest._
+import org.scalatest.matchers.ShouldMatchers
+import org.scalatest.BeforeAndAfterEach
+
+trait ScalatraSolrSuite extends ScalatraFunSuite with BeforeAndAfterEach with ShouldMatchers with EmbeddedSolr {
+
+    val solr = solrServer()
+    
+    override def beforeEach() {
+        solr.deleteByQuery("*:*")
+    }
+    
+    def addToSolr(fields: Map[String, String]) {
+        addToSolr(solr, fields)
+    }
+    
+}
+{% endhighlight %}
+
+my-project\src\test\scala\MyResourceTest.scala:
+
+{% highlight scala %}
+class MyResourceTest extends ScalatraSolrSuite {
+    addServlet(new MyResource() with EmbeddedSolr, "/*")
+    
+    test("get two documents for the owner") {
+        addToSolr(Map[String, String] ("DocumentID" -> "11", "OwnerPartyID" -> "100" ))
+        addToSolr(Map[String, String] ("DocumentID" -> "21", "OwnerPartyID" -> "100" ))
+        addToSolr(Map[String, String] ("DocumentID" -> "31", "OwnerPartyID" -> "101" ))
+        
+        get("/owner/100/boats") {
+            status should equal (200)
+            body.vrCount should equal (2) // "vrCount" is our implicit 
+        }
+    }
+  
+}
+{% endhighlight %}
+
+And finally the coveted test results:
+
+{% highlight text %}
+$ sbt test
+
+[info] ...
+[info] MyResourceTest:
+[info] - get two documents for the owner
+[info] ... many other tests ...
+[info] Passed: : Total 42, Failed 0, Errors 0, Passed 39, Skipped 3
+[success] Total time: 24 s, completed Aug 20, 2011 10:28:48 AM
+{% endhighlight %}
+
