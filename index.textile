@@ -1,39 +1,50 @@
 ---
 layout: default
 ---
- 
-<div id="posts" class="grid_8">
-  <h2>Posts</h2>
-  <ul>
-    {% for post in site.categories.blog %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <p>{{ post.summary }}</p>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
 
-<div id="notes" class="grid_4">
-  <h2>Notes</h2>
-  <ul>
-    {% for post in site.categories.note %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <p>{{ post.summary }}</p>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+<div id="wrp">
+	<header id="indhead" class="container_12">
+		<h1 class="grid_12"><a href="/">Yuriy <strong>Zubarev</strong></a></h1>				
+	</header>
 
-<div id="cheatsheets" class="grid_4">
-  <h2>Cheat-sheets</h2>
-  <ul>
-    {% for post in site.categories.cheatsheet %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <p>{{ post.summary }}</p>
-      </li>
-    {% endfor %}
-  </ul>
+	<div class="container_12 indmain">
+		<div id="posts" class="grid_6">
+			<h2 class="indh">Posts :</h2>
+	
+			<ul class="indexul">
+			    {% for post in site.categories.blog %}
+                  <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    <p>{{ post.summary }}</p>
+                  </li>
+                {% endfor %}
+			</ul>
+		</div>
+	
+				
+		<div id="notes" class="grid_6">
+			<h2 class="indh">Notes :</h2>
+			
+			<ul class="indexul">
+                {% for post in site.categories.note %}
+                  <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    <p>{{ post.summary }}</p>
+                  </li>
+                {% endfor %}
+			</ul>
+	
+			<h2 class="indh">Cheat-sheets :</h2>
+	
+			<ul class="indexul">
+			    {% for post in site.categories.cheatsheet %}
+                  <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    <p>{{ post.summary }}</p>
+                  </li>
+                {% endfor %}
+			</ul>
+			
+		</div>
+	</div>
 </div>

@@ -3,7 +3,7 @@ layout: post
 title: Macleans - Our Biggest News Issue Ever
 ---
 
-!>/images/macleans-biggest-ever.jpg!
+<img src="/images/macleans-biggest-ever.jpg" class="fright" alt=""/>
 
 It's a funny coincidence. Last week I unsubscribed from Macleans magazine and earlier this week I received yet another confirmation supporting my decision. Macleans proudly stated on the front: "Our Biggest News Issue Ever". 
 

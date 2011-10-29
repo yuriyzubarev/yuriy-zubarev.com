@@ -1,17 +1,14 @@
 /* From http://github.com/mojombo/tpw/raw/master/css/syntax.css */
 
-pre {
-    background: #ffe;
-    width: 100%;
+body pre {
+    background:url(../images/code.png);
     overflow: auto;
     overflow-y: hidden;
-    border: 1px solid;
-    border-color: #eed #ccb #bba #ddc;
-    padding: 10px;
+    padding: 0 25px;
+	margin:18px 0 18px 20px;
+	border-radius:10px;
 }
-.highlight  { 
-    background: #fff; 
-}
+.highlight  { background: transparent; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */

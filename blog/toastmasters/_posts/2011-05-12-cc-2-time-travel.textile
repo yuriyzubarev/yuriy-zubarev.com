@@ -4,14 +4,13 @@ title: Time Travel
 ---
 h4. Competent Communication. Project 2.
 
-!>/images/iceland-1.jpg!
+<img src="/images/iceland-1.jpg" class="fright" alt=""/>
 
 I always had a very narrow vision of a time travel. Having seen Hollywood movies on this subject, I had a picture of being strapped to a chair and moving convulsively, closing my eyes, letting out a wild scream of pain and then, all of a sudden, feeling woken up hundreds of years in the past. With this vivid imagination there was also a realization of unlikely plausibility of the whole enterprise. I hoped for it, but deep inside I didn’t believe in time travel. This all changed last year... when I travelled to Iceland.
 
 I don’t know exactly how many years back I went but the time shift was felt everywhere. It was evident in the place itself and in the people who lived there. 
 
-
-<p class="clear">&nbsp;</p> !>/images/iceland-2.jpg!
+<img src="/images/iceland-2.jpg" class="fright" alt=""/>
 
 First of all there was this nature as I never saw it before. At the time I was already spoiled by our magnificent West coast. Only more treacherous mountains and more thicker and taller trees could evoke a sense of awe in me. This is what I thought before being completely awestruck by a unique beauty of lava fields, stone deserts and... moss. Moss! I never thought one could be so amazed by moss. I always pictured it as wet, nasty and bacteria infested stuff leaching to a rock in some cold and dark place. Iceland moss was nothing less but a luxurious carpet with intricate tapestry and bright colors stretching miles and miles in every direction. Countless ship were peacefully grazing all around while being completely oblivious to strong winds, frequent rains and how naturally they fit into this silent picture of perfection.
 
@@ -19,13 +18,13 @@ Nature surprises didn’t stop there. Next came a lifeless sight of a rock deser
 
 Couple of days into my travel around the island I noticed a troubling trend. I saw so much beauty that I was getting de-sensitised by it. Looking at dozens waterfalls on each side of a road made me speechless just yesterday, but today these densely packed sites of amazement didn’t inspire but irritated me. “Oh, please, another breath-taking waterfall! Is it even real?!”. I managed to quell seeds of modern cynicism and went on to be further inspired.
 
-!>/images/iceland-3.jpg!
+<img src="/images/iceland-3.jpg" class="fright" alt=""/>
 
 The highlight of my trip was one of the natural wonders of Iceland - Jökulsárlón, also known as Glacier Lagoon. It presented a picturesque parade of ghostly and luminous blue ice-bergs. Ever since I was a child, I wanted to see and touch an ice-berg. I don’t remember the root of this desire, but I always wanted to stand next to a still and cold giant and touch it with an open palm. There is something majestic about them. Describing them as chunks of frozen water is so simplistic and unimaginative. The sheer size, unlimited combination of forms and ever so intricate reflections of light, make those boulders look like pedestals for all the drama and triumph unfolded during tens of thousands of years as nature shaped itself. I took about 500 pictures of the lagoon and I still cannot reduce them to a manageable number - no two pictures are alike when you are admiring something as harmonious as a lake full of ice-bergs.
 
 No travel story could be complete without mentioning people you meat on your journey.
 
-!>/images/iceland-4.jpg!
+<img src="/images/iceland-4.jpg" class="fright" alt=""/>
 
 One evening, after a regretful whale watching trip where I disgorged plenty, I was sitting in a restaurant in a northern-most harbour, together with other tourists. We met just earlier that day and a conversation was warm and engaging. What struck me the most, is that the island that is relatively young in geological terms, and therefore somewhat situated back in time, drew people who wanted to go back in time themselves. I remember this young woman from Germany earnestly trying to understand the appeal of Face-book but not able to put her finger on it. In her opinion, it just didn’t have the same punch as sending a friend a physical postcard from a remote place, or picking up a phone and having a conversation. She then went on to describe advantages of a traditional film camera. Limited number of available shots makes you  think twice about a composition and it is the best antidote from being a shutter-happy. Next she completely won me over with her description of a time when she waits for pictures to be developed in a photo studio. Not knowing how pictures are going to come out and discovering them one by one - is a joy, she explained, that can only be matched  by a joy of taking these pictures in the first place.
 

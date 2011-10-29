@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
+     <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+     <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
      <meta name="viewport" content="width=device-width; initial-scale=1; minimum-scale=1; maximum-scale=1" /> 
      <meta name="author" content="Yuriy Zubarev" /> 
@@ -15,11 +17,13 @@
      {% if page.summary %}
        <meta namne="description" content="{{ page.summary }}" />
      {% endif %}
+     
+     <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
      <link rel="stylesheet" href="/css/reset.css" type="text/css" />
      <link rel="stylesheet" href="/css/text.css" type="text/css" />
      <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
-     <link rel="stylesheet" href="/css/site.css" type="text/css" />
+     <link rel="stylesheet" href="/css/main.css" type="text/css" />
 
      {% for css in page.css %}
        <link rel="stylesheet" href="{{ css }}" type="text/css" />
@@ -49,21 +53,13 @@
   </head>
 
   <body>
-
-      <header class="container_12">
-         <h1 class="grid_12"><a href="/">Yuriy Zubarev</a></h1>
-      </header>
-
-      <div class="clear"></div>
-
-      <div class="container_12">
-          {{ content }}
-      </div>
-
-      <div class="clear"></div>
       
-      <footer class="container_12">
-      Powered by static files. <a href="http://github.com/mojombo/jekyll">Jekyll</a> &amp; <a href="http://960.gs/">960 Grid System</a>
+      {{ content }}
+      
+      <footer class="container_12" id="ftr">
+      	<p class="grid_12">
+      		Powered by static files. <a href="http://github.com/mojombo/jekyll">Jekyll</a> &amp; <a href="http://960.gs/">960 Grid System</a>
+      	</p>
       </footer>
 
     {% for js in page.javascript %}
