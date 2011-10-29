@@ -11,6 +11,9 @@ I went home 5 minutes earlier that day.
 
 PS: TDD is a serious subject. There are excellent arguments out there why TDD is not just a fad, but an essential software engineering practice. For example, in an article "What Is Software Design?" (1), Jack W. Reeves suggests among other things that "... it is cheaper and simpler to just build the design and test it than to do anything else". It's a facinating read where Jack convinces you that engineering rigor in software is testing.
 
+I should also recommend "Neal Ford on Agile Engineering Practices" (2) from O'Reilly Media to learn more about TDD.
+
 (1) http://www.developerdotstar.com/mag/articles/reeves_design.html
+(2) http://shop.oreilly.com/product/0636920020271.do
 
 
