@@ -238,6 +238,7 @@ padding:8px;
 
 img.fright{
 float:right;
+clear:right;
 margin: 5px 0 15px 15px;
 }
 
