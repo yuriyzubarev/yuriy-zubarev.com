@@ -1,0 +1,32 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Yuriy Zubarev</title>
+    <link href="http://yuriy-zubarev.com/"/>
+    <link type="application/atom+xml" rel="self" href="http://yuriy-zubarev.com/atom.xml"/>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>http://yuriy-zubarev.com/</id>
+    <author>
+        <name>Yuriy Zubarev</name>
+    </author>
+
+    {% for post in site.posts %}
+    {% if post.categories contains 'cheatsheet' %}
+    {% else %}
+    <entry>
+        <id>http://yuriy-zubarev.com{{ post.id }}</id>
+        <link type="text/html" rel="alternate" href="http://yuriy-zubarev.com{{ post.url }}"/>
+        <title>{{ post.title }} - {{ post.categories }}</title>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <author>
+            <name>Yuriy Zubarev</name>
+            <uri>http://yuriy-zubarev.com/</uri>
+        </author>
+    </entry>
+    {% endif %}
+    {% endfor %}
+
+</feed>
+
