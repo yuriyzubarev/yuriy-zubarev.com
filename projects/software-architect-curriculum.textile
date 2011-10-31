@@ -1,0 +1,15 @@
+---
+layout: post
+title: Software Architect Curriculum
+---
+
+A list of resources every software architect should consider studying to become a respectful professional.
+
+_It's a very subjective list, and it's at its infancy. The items here are not categorized or sorted in any way yet._
+
+* http://www.infoq.com/presentations/Simple-Made-Easy
+* http://www.computer.org/portal/web/computingnow/onarchitecture
+* http://www.sei.cmu.edu/library/abstracts/books/0321552687.cfm
+* http://www.objectwatch.com/white_papers.htm#SessionsSalingaros
+* http://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959
+

@@ -43,7 +43,18 @@ layout: default
                   </li>
                 {% endfor %}
 			</ul>
-			
+		
+            <h2 class="indh">Projects :</h2>
+
+            <ul class="indexul">
+                <li><a href="http://www.mglider.com/">mGlider</a></li>
+                <li><a href="/projects/software-architect-curriculum.html">Software Architect Curriculum</a></li>
+                <li><a href="https://github.com/yuriyzubarev">GitHub repositories</a></li>
+            </ul>
+
+
 		</div>
+
+
 	</div>
 </div>
