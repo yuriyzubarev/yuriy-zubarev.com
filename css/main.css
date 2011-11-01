@@ -316,3 +316,9 @@ display:block;
 background:none;
 color:#5791D0;;	
 }
+
+div#comments {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
