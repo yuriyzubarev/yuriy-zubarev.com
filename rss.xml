@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Yuriy Zubarev</title>
+        <link>http://www.yuriy-zubarev.com/</link>
+        <description>Personal blog of Yuriy Zubarev</description>
+        <language>en-us</language>
+        <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+
+        {% for post in site.posts %}
+        {% if post.categories contains 'cheatsheet' %}
+        {% else %}
+        <item>
+            <title>{{ post.title }}</title>
+            <link>http://www.yuriy-zubarev.com{{ post.url }}</link>
+            <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+            <description>{{ post.content | xml_escape }}</description>
+        </item>
+        {% endif %}
+        {% endfor %}
+
+    </channel> 
+</rss>
