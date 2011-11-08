@@ -12,4 +12,5 @@ _It's a very subjective list, and it's at its infancy. The items here are not ca
 * http://www.sei.cmu.edu/library/abstracts/books/0321552687.cfm
 * http://www.objectwatch.com/white_papers.htm#SessionsSalingaros
 * http://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959
+* http://catb.org/~esr/writings/taoup/html/ch01s06.html
 
