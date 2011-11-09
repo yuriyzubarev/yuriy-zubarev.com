@@ -17,3 +17,4 @@ I should also recommend "Neal Ford on Agile Engineering Practices" (2) from O'Re
 (2) http://shop.oreilly.com/product/0636920020271.do
 
 PSS: TDD is not all or none proposition. I believe that a goal of 100% test coverage might be harmful if it's just a goal by itself without a broader context and a consideration of trade-offs. But that's a topic for a separate discussion.
+
