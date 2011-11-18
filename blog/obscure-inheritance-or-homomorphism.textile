@@ -43,7 +43,7 @@ Depending on the original intent, this could be an example of either Obscure Inh
 
 bq. Inheritance is a way to reuse code of existing objects, establish a subtype from an existing object, or both, depending upon programming language support.
 
-In this situation there is zero code reuse. Sub-typing is rather superfluous: it offers no more than a fact that our classes have getName() method. The method itself is not what consumers care about, but a hook to make further decisions based on essentially internal structure of a class. This is the example of Obscure Inheritance.
+In this situation there is zero code reuse. Sub-typing is rather superfluous: it offers no more than a fact that the classes have getName() method. The method itself is not what consumers care about, but a hook to make further decisions based on essentially internal structure of a class. This is the example of Obscure Inheritance.
 
 bq. In computer science, polymorphism is a programming language feature that allows values of different data types to be handled using a uniform interface. 
 
