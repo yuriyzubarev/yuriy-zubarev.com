@@ -3,11 +3,13 @@ layout: post
 title: Obscure Inheritance or Homomorphism
 ---
 
+*draft*
+
 Here is a rather simple class diagram:
 
 <img src="{{ site.url }}/images/blog/obscure-inheritance-or-homomorphism.jpg" class="fcenter" alt=""/>
 
-At the first glance and it makes sense and it's rather self explanatory. If you're an experienced developer you can actually scream "bloody murder" right away, but let's take it slow. Here is a hint that something evil is happening here. The rest of a system has an explicit dependency on Displayable interface, which is a good intent, but the details are very ominous. Every implementation block always has the same structure:
+At the first glance it makes sense and it's rather self explanatory. If you're an experienced developer you can actually scream "bloody murder" right away, but let's take it slow. Here is a hint that something evil is happening here. The rest of a system has an explicit dependency on Displayable interface, which is a good intent, but the details are very ominous. Every implementation block always has the same structure:
 
 {% highlight java %}
 
@@ -21,7 +23,7 @@ if ("list".equals(displayble.getName())) then {
 
 {% endhighlight %}
 
-What's going on here? It's a complete fiasco in abstraction, plain and simple. The code above might as well look like:
+This is a complete fiasco in abstraction, plain and simple. The code above might as well look like:
 
 {% highlight java %}
 
@@ -35,13 +37,13 @@ if (displayable instanceof DisplayableList) {
                 
 {% endhighlight %}
 
-The only thing that that base interface exposes is getName() method which is akin to Object.getClass() method. It doesn't encapsulate any useful behavior, it just provides a hook to query object's implementation structure.
+The only thing that the base interface exposes is getName() method which is akin to Object.getClass() method. It doesn't encapsulate any useful behavior, it just provides a hook to query object's implementation structure.
 
 Depending on the original intent, this could be an example of either Obscure Inheritance or Homomorphism or both.
 
 bq. Inheritance is a way to reuse code of existing objects, establish a subtype from an existing object, or both, depending upon programming language support.
 
-In this situation there is zero code reuse. Sub-typing is rather superfluous: it offers no more than a fact that our classes have getName() method. The method itself is not what consumers care about, but a hook to make further decisions. This is the example of Obscure Inheritance.
+In this situation there is zero code reuse. Sub-typing is rather superfluous: it offers no more than a fact that our classes have getName() method. The method itself is not what consumers care about, but a hook to make further decisions based on essentially internal structure of a class. This is the example of Obscure Inheritance.
 
 bq. In computer science, polymorphism is a programming language feature that allows values of different data types to be handled using a uniform interface. 
 
@@ -52,6 +54,4 @@ This case presents the exact opposite: different data types are handled without 
 h3. Alternative
 
 This family of classes deal with tree-like structures to display lists, headings, paragraphs, etc. There is a software design pattern that deals with this exact concern: "composite pattern":http://en.wikipedia.org/wiki/Composite_pattern. The key benefit, as applied to this case, is "... lets clients treat individual objects and compositions uniformly".
-
-
 
