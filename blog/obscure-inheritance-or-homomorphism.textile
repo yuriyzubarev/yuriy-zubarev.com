@@ -49,7 +49,7 @@ bq. In computer science, polymorphism is a programming language feature that all
 
 bq. The word derives from the Greek "πολυμορφισμός" meaning "having multiple forms".
 
-This case presents the exact opposite: different data types are handled without a uniformed interface. The presence of "if" statement per data type is a proof. This is an example of Homomorphism.
+This case presents the exact opposite: different data types are handled without a uniformed interface. The presence of "if" statement per data type is the culprit. This is an example of Homomorphism.
 
 h3. Alternative
 
