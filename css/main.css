@@ -247,6 +247,11 @@ float:left;
 margin: 5px 10px 10px 0;
 }
 
+img.fcenter {
+    display:block; 
+    margin:0 auto;
+}
+
 blockquote{
 background:#EFEFEF;
 padding:10px 20px 10px 70px;
@@ -320,5 +325,8 @@ color:#5791D0;;
 div#comments {
     margin-top: 30px;
     margin-bottom: 10px;
+    border-width: 1px; 
+    border-style: dotted;
+    padding: 10px;
 }
 
