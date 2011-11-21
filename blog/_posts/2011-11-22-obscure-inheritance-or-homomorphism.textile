@@ -3,8 +3,6 @@ layout: post
 title: Obscure Inheritance or Homomorphism
 ---
 
-*draft*
-
 Here is a rather simple class diagram:
 
 <img src="{{ site.url }}/images/blog/obscure-inheritance-or-homomorphism.jpg" class="fcenter" alt=""/>
