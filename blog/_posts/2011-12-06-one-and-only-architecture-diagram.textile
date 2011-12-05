@@ -25,7 +25,7 @@ bq. If your architecture is based on frameworks, then it _cannot_ be based on yo
 
 Yes it can, if a framework is based on my use cases.
 
-Enough of nitpicking. The bigger issue here is a pernicious trend similar to "magnum opus":http://en.wikipedia.org/wiki/Magnum_opus_(alchemy). While alchemists were trying to discover a philosopher's stone, we have a tendency to create The One And Only Architecture Diagram. As such, it should scream every answer to every question you might have.
+Enough of nitpicking. The bigger issue here is a pernicious trend similar to "magnum opus":http://en.wikipedia.org/wiki/Magnum_opus_(alchemy). While alchemists were trying to discover a philosopher's stone, we have a tendency to contrive The One And Only Architecture Diagram. As such, it should scream every answer to any question. 
 
 There are many questions to be asked about a software system. What is it for? Who is it for? What does it do? How does it do it (that's a loaded one)? What does it consist of? How does it get deployed? How does it handle concurrency? How does it handle outages in dependent services? How does it map to the source code? Let's stop trying to pretend we can answer all questions with one architecture diagram. Better yet, let's stop avoiding those questions because we cannot address them with one diagram and let's "educate ourselves":http://www.amazon.com/gp/product/0321552687/ref=as_li_ss_tl?ie=UTF8&tag=fibonaccisolu-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321552687.
 
