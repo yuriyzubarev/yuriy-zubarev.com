@@ -330,3 +330,19 @@ div#comments {
     padding: 10px;
 }
 
+dl {
+  margin-bottom: 15px;
+}
+
+dt, dd {
+  line-height: 20px;
+}
+
+dt {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+dd {
+  margin-left: 25px;
+}

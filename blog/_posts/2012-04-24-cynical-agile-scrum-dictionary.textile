@@ -1,0 +1,142 @@
+---
+title: Cynical Agile and Scrum Dictionary
+layout: post
+---
+
+bq. *As a* reader with a sense of humor,
+*I want* to find down-to-earth definitions,
+*So that* I can smile, frown, and reflect.
+
+- Agile :=
+# a faith
+# is whatever you want it to be to achieve what you need to achieve
+=:
+- Agile Certification :=
+# a pilot license that both an eagle and an elephant can easily obtain
+=:
+- Agile Manifesto :=
+# a document that tipped the balance from analysis paralysis to refactor distractor 
+# a proof that principles are often mistaken for rules
+# a license for avoiding documentation, and not having a plan
+=:
+- Backlog :=
+# a land of forgotten dreams
+=:
+- BDD :=
+# an ironic example of a development community building tools for non developers, and ending up being the only ones using them
+=:
+- Burn Down :=
+# a condition of a Development Team at the end of a Sprint
+=:
+- Code Review :=
+# the most common example of Technical Debt
+# a process of curing root rot by trimming leaves
+=:
+- Continuous Delivery :=
+# a blockbuster sequel to Continuous Integration
+=:
+- Continuous Integration :=
+# a good idea turned into a semi-automated Continuous Disaster
+=:
+- Daily Scrum or Daily Stand-up :=
+# weekly two-hour long meeting
+# the three forbidden questions we never speak of
+# a license not to talk to your team members in between stand-ups
+=:
+- Development Team :=
+# is the same as Development Team in waterfall but with an added illusion of empowerment
+=:
+- DevOps :=
+# a new breed of professionals who can write "Hello World" and deploy it to Heroku
+=:
+- DDD :=
+# a methodology so advanced that it could only be used once to produce the venerable TimeAndMoney
+# Deadline Driven Development
+=:
+- Emergent Design :=
+# a process in which parents who read Tarzan abandon their infant in a forest only to see it grow into Bigfoot
+=:
+- Enterprise Agile :=
+# an oxymoron
+=:
+- Evolutionary Architecture :=
+# a process equally capable of producing hummingbirds as well as vampire bats
+=:
+- Extreme Programming (XP) :=
+# a methodology that was so extreme that it's not practiced anymore
+=:
+- Feedback :=
+# a rare and valuable currency of Agile: everybody wants to receive it, nobody wants to give it away
+=:
+- Impediment :=
+# a manifestation of organizational culture
+=:
+- Kanban :=
+# a paradox where the Software Development industry tries very hard to differentiate itself from traditional manufacturing systems by borrowing a method originated in those very systems
+# an example that anything sounds more legitimate if it's in Japanese
+=:
+- Pair Programming :=
+# an unsolved puzzle for economists, managers, and compensation specialists
+=:
+- Planning Poker :=
+# a parody on a real poker: everybody bluffs that they don't know the hands and the next moves, and pretend to have fun
+=:
+- Product Owner :=
+# a guardian to protect Stakeholders from an unwashed Development Team
+=:
+- Refactoring :=
+# a word one says before one sins
+# a source to bail out the global economy if Development Teams had one dollar for every promise to refactor
+=:
+- Scrum :=
+# a religion
+# a commercialization of Agile
+=:
+- Scrum/Agile Project Management Software :=
+# a kick in the stomach to the first principle of Agile Manifesto
+=:
+- Scrum Master :=
+# a person who removes stumbling blocks and in so-doing eventually self destructs
+# a person with a stopwatch, a squeaky toy, and a whistle
+=:
+- Software Craftsmanship :=
+# an effort to turn one's hobby into a full time job and have one's employer to pay for it
+=:
+- Spike :=
+# a gas pedal for a Velocity of a Sprint
+=:
+- Sprint :=
+# an enchanted quest to collect magical Story Points
+=:
+- Sprint Planning :=
+# a meeting where bells and whistles are prioritized over nuts and bolts
+=:
+- Sprint Retrospective :=
+# a mystical meeting that is always skipped to give the next Sprint more time
+=:
+- Spring Review :=
+# a meeting ignored by Stakeholders
+# a ceremony where a production crew is watching their own movie and is handing themselves the Oscar statuette
+=:
+- Stakeholders :=
+# people who secretly hate Agile
+=:
+- Story Points :=
+# a relative measure of absolute inability to estimate
+=:
+- TDD :=
+# an approach to build a car with hundred air bags and no engine
+=:
+- Technical Debt :=
+# a measurement of a sentiment of a Development Team
+# a plague ship that always sinks to the bottom of a Backlog
+=:
+- User Story :=
+# an oversimplification of requirements to the level where it's embarrassing to read it, so nobody does
+=:
+- Velocity :=
+# the next best thing after real results
+=:
+- xDD Family of Methodologies :=
+# a choir made up of prophets each singing their own hymns
+=:
