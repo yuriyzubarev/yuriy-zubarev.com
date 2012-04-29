@@ -114,7 +114,7 @@ bq. *As a* reader with a sense of humor,
 - Sprint Retrospective :=
 # a mystical meeting that is always skipped to give the next Sprint more time
 =:
-- Spring Review :=
+- Sprint Review :=
 # a meeting ignored by Stakeholders
 # a ceremony where a production crew is watching their own movie and is handing themselves the Oscar statuette
 =:
