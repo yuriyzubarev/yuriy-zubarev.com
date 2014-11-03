@@ -3,3 +3,4 @@ _site/
 push-live.sh
 .c9revisions/
 
+.vagrant/

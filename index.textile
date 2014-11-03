@@ -34,21 +34,12 @@ layout: default
                 {% endfor %}
 			</ul>
 	
-			<h2 class="indh">Cheat-sheets :</h2>
-	
-			<ul class="indexul">
-			    {% for post in site.categories.cheatsheet %}
-                  <li>
-                    <a href="{{ post.url }}">{{ post.title }}</a>
-                  </li>
-                {% endfor %}
-			</ul>
-		
             <h2 class="indh">Projects :</h2>
 
             <ul class="indexul">
-                <li><a href="http://www.mglider.com/">mGlider</a></li>
+                <li><a href="https://web.archive.org/web/20140107194300/http://mglider.com/">mGlider</a></li>
                 <li><a href="/projects/software-architect-curriculum.html">Software Architect Curriculum</a></li>
+                <li><a href="http://programmer.97things.oreilly.com/wiki/index.php/Write_Code_as_If_You_Had_to_Support_It_for_the_Rest_of_Your_Life">97 Things Every Programmer Should Know</a></li>
                 <li><a href="https://github.com/yuriyzubarev">GitHub repositories</a></li>
             </ul>
 
