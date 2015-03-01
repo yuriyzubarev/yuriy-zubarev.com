@@ -1,0 +1,93 @@
+---
+title: 2014 Year in Review
+layout: post
+---
+
+I feel a need to reflect on year 2014 and then continue onward. Some years from now I still want to remember all my hits and misses, lessons, experiences, thoughts and plans for the future. In addition, writing makes planning for the next year more explicit and honest. Everyone can point to my goals from years past and smirk at my unfulfilled ambitions. The worst thing would be if that "everyone" is me from the future. Let's get right to it.
+
+h2. Books and Authors
+
+This is the easiest category to start with because I track my reading list using GoodReads (https://www.goodreads.com/review/list/13551172-yuriy-zubarev?read_at=2014). Eighteen books from 2014 compared to sixteen books from 2013. The trend is in the right direction. My homage to six books with five stars rating:
+
+The Halo Effect by Philip M. Rosenzweig 
+
+This is the book I'm most thankful for in 2014. I used to be caught in a pernicious pursuit of business books claiming to discover secrets of success. Such books abound in hundreds, and each year the business press adds another dozens to a mix, all backed by studies, anecdotes and revelations. About half of all the books I read in many previous years were from "business" category. Many of them provided curious accounts of booms and busts, handful of nuggets, exaggerations, simplifications, many lists of things to do, and as many lists of things not to do. Most of them turned out to be feel-good motivational texts with little substance. The Halo Effect took apart the most egregious books from the "business" category by applying critical thinking and questioning cause and effect relationship. I felt a weight off my shoulders as I finished reading the book, and was happy to realize that my fruitless pursuit is over and I could start enjoying other genres. The book also had a broader effect and I started noticing the halo effect at play at Amazon, AbeBooks and my team. Having read the book didn't make me immune to this cognitive bias though. I just started catching myself more often and stopping myself in time before falling into the trap of halo effect.
+
+A Failed Empire by Vladislav M. Zubok
+
+Having been born in Soviet Union surely makes me an expert in all things Soviet... At least that's what other people think when talking to me. They couldn't be more wrong. In addition to my ignorance about soviet history, I don't drink vodka, don't play chess, don't dance ballroom, don't play hockey and don't play on balalaika. I am the worst nightmare for origin of birth stereotypes. Still, wouldn't it be nice to expand one's knowledge? So I picked up this book and went for a long ride down the history lane. It was revealing to learn about the human side of the former Soviet empire, about the bets, the triumphs and fiasco. My one sentence summary of why Soviet Union failed? I wish I had one.
+
+The Creative Habit by Twyla Tharp
+
+This was an experiment. I finished one of the books and Kindle recommended me the list of books I might enjoy. I selected The Creative Habit which was presented as the first in a list of choices. The experiment worked out. The book was practical and inspirational without being condescending and trite. After finishing the book I did formalize my creative habit: as soon as I hear alarm clock I go to a bathroom and splash cold water on my face. The trick is to do it on auto-pilot without giving my brain any chance to start an internal dialog: "isn't it too early?", "there is nothing urgent this morning", "isn't it cold outside?", "wouldn't it be nice to sleep in?..". It sure would! But who wants to go back to bed with a wet face?
+
+Ham on Rye, Post Office, and Women by Charles Bukowski 
+
+The best literary discovery of 2014! Oh, am I ever glad I picked up Ham on Rye, and then couldn't get enough of Bukowski. I shouldn't have enjoyed it because it was so contrary to what they taught me in school, and it was opposite to so many high prose book I held as the only standard of literary expression. I shouldn't, but I did and did with abandon. The coarse, the naked, the blunt, the obscene, the sad and the clever live observations by Henry Chinaski struck a strong accord with me. 
+
+h2. Podcasts
+
+Twenty five minute walk to and from the office makes for a satisfying podcast listening experience. Downcast is one of the most used apps on my iPhone. Here is what I listened to religiously and few favorite episodes:
+
+# NPR: Planet Money
+## 555: Why Is The Milk In The Back Of The Store?
+## 564: The Signature
+## 575: The Fondue Conspiracy
+# This American Life
+## 529: Human Spectacle
+## 534: A Not-So-Simple Majority
+## 536: The Secret Recordings of Carmen Segarra
+# HBR IdeaCast
+## 413: Marc Andreessen and Jim Barksdale on How to Make Money
+## 414: To Do Things Better, Stop Doing So Much
+## 438: Explaining Silicon Valley's Success
+# Radiolab from WNYC
+## Season 12 | Episode 3 Apocalyptical 
+## Season 12 | Episode 7 60 Words 
+## Season 12 | Episode 9 Galapagos 
+# The Moth Podcast
+# NPR: Inteligence Squared
+# Software Engineering Radio
+
+h2. Family and Memories
+
+The planned trip to Italy and France was a blissful highlight for Chessy and I. The unplanned stop at my brother's in Burnaby and trying to save the vacation through further unplanned flight through London, UK provided drama and excitement worthy of the Airline documentary. I am happy I'm married to the most kind and stoic woman who handled an unpleasant interruption better than I did.
+
+Three weeks in Europe was a feast for eyes, fiesta for taste buds, challenge for feet, and a shock for a wallet. Paris and Tuscany made the most impression on Chessy. Marseille and Rome were my number one and two. 
+
+h2. Goals
+
+After joining AbeBooks I noticed one particular thing: every high performer, with no exception, mastered touch typing. I had to catch up, especially given Amazon's written culture. It took me between two to three months of practice of at least five days per week, and I finally re-wired my brain. The old habits do indeed die hard. Now I enjoy less stress in my neck and better concentration when typing. This article is being written using touch typing, of course.
+
+h2. Hobbies
+
+The start of the year was strong. I took woodcarving lessons at Camosun college and made a Welsh love spoon. I made another one at home once the course was over, and that was it for woodcarving. 
+
+I managed to build a decent DIY office desk in one weekend, taking advantage of 2013 woodworking classes. All in all, 2014 was a rather unproductive year to explore new hobbies.
+
+h2. Career
+
+Career, work, office, employment, OLR, OP1, OE, KTLO, PC... Amazon and AbeBooks provided plenty of challenges and opportunities to learn, build, screw up, recover and grow. It's going to be impractical to cram all work related lessons in one post as they differ by scope and the context. Instead, I'm giving myself a goal to write one article per lesson in 2015.
+
+h2. 2015 Goals
+
+Walk the West Coast Trail
+
+Explore new hobbies Chessy and I could share together. Disconnect from electronics for the better parts of weekends.
+
+Understand and teach others about BitCoin
+
+Finish "Data Science" specialization on Coursera
+
+Finish "The Science of Happiness" on edX
+
+Write post "SDE in X"
+
+... "Pacing item"
+
+... "Reasons projects fail and succeed (2015 edition)"
+
+... "Feedback"
+
+... "Worst thing about best practices"
+
