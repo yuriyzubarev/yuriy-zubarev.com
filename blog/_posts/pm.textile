@@ -1,0 +1,16 @@
+---
+title: Defining a Product Management role
+layout: post
+---
+
+After three years being a Software Development Manager at AbeBooks, the new challenge came unexpected. Here is the gist:
+
+"How would you fill if a Product Manager reports to you?"
+"Why? What's the role description?"
+"Well, you need to figure it out."
+
+The conversation was a bit more nuanced, and it was much more than one conversations. Because of confidentiality reasons I cannot tell what inspired the dialog. I can say that I accepted the challenge, we set a time line, and I started consuming voraciously all the information directly and tangentially related to the role of PM.
+
+Let's not ignore an elephant in the room: a Product Manager reporting to an Engineering Manager?! As one <a href="http://productmanagementtips.com/2008/12/16/software-product-manager-landscape/">article</a> states: _Engineering is the last place for product management from an organizational point of view_. It then adds: _You cannot have the fox guard the hen house, can you_? Well, I guess the conversation is over then - I just bought a ticket to a disaster-land. It could as well be the case, the time will tell, but let's move the elephant to the corner of the room for now, and come back to the beast a bit later.
+
+<a href="https://medium.com/@noah_weiss/50-articles-and-books-that-will-make-you-a-great-product-manager-aad5babee2f7">54 Articles and Books that will Make you a Great Product Manager</a> became my reading list. I still have a long way to go with books, but the articles are all behind my belt already. Binge reading had its benefits: your own observations and insights become more strong and colorful with each new article as the common subject persists and each article builds up context. One thread became quite promiment quater trough all the articles and it only gained strenght by the finish light. 
