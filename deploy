@@ -1,2 +1,3 @@
-scp -r _site/* solutionrealm_yuriy-zubarev@ssh.phx.nearlyfreespeech.net:/home/public
+#scp -r _site/* solutionrealm_yuriy-zubarev@ssh.phx.nearlyfreespeech.net:/home/public
+scp -r _site/* ec2-user@ec2-52-35-104-255.us-west-2.compute.amazonaws.com:/var/www/html/
 
