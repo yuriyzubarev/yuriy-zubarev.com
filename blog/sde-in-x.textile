@@ -1,0 +1,12 @@
+---
+title: SDE in X
+layout: post
+---
+
+A software organization where everyone directly contributes to a code base, in big ways or small, will outperform its competitors where only few people directly contribute to a code base.
+
+Allow me to dream a little. In this winning organizational set-up everyone has access to a distributed version control system, for example Git. Software Development Engineers (SDE) maintain structure of Git projects, and together with Software Development Engineers in Operations (or Ops) they develop and maintain automated build pipelines to turn Git updates into live changes. Of course, the pipelines take the changes and put them through stages of testing, gradual deployment, base-lining, and sometimes automated roll-backs, as managed by a cohort of SDEs, SDEs in Operations, and SDEs in Test.
+
+This empowering infrastructure let's creative juices flow through the organizations and let's other roles directly contribute to final products with no friction, for as long as they know Git basics. SDE in Customer Service quickly changes wording of a confusing sentence minutes after receiving an email from a puzzled customer, and in couple of more minutes that sentence is a history. In meantime, an SDE in Marketing checks in a dedicated landing page with A/B test variance, posts a link on Facebook, monitors click-through and conversion stats, and promotes test B. On a different subject, her colleague, a Senior SDE in Marketing, comes to a conclusion through research and testing that Google rank could be increased for the key pages if they follow schema.org markup. He knows how to find a domain model maintained by SDEs in one of Git modules as a reference for his changes, and then creates a Git pull request modifying the structure and content of the key pages. Next day one SDE merges the pull request and changes are going live as they both have a coffee break. 
+
+Another week SDE in Product Management demonstrates a working prototype of a new approach of solving an old problem.
